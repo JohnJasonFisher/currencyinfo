@@ -1,5 +1,6 @@
 <script>
   import Counter from './lib/Counter.svelte'
+  import AppInfo from './lib/AppInfo.svelte'
 </script>
 
 <main>
@@ -7,5 +8,6 @@
 
   <div class="card">
     <Counter />
+    <AppInfo />
   </div>
 </main>
