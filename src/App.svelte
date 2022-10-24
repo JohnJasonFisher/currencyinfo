@@ -1,6 +1,6 @@
 <script>
   import CurrencyInfo from './lib/CurrencyInfo.svelte';
-import DocumentHead from './lib/DocumentHead.svelte';
+  import DocumentHead from './lib/DocumentHead.svelte';
 </script>
 
 <main>
@@ -10,7 +10,7 @@ import DocumentHead from './lib/DocumentHead.svelte';
     <DocumentHead />
     <button>USD</button>
     <button>AWG</button>
-    <CurrencyInfo />
-    <CurrencyInfo currencyName={'Aruban Florin'} symbol={'awg'} fileType={'jpeg'} currencyDemonination={'five'} />
+    <CurrencyInfo currencyDemoninations={['one']}/>
+    <CurrencyInfo currencyName={'Aruban Florin'} symbol={'awg'} fileType={'jpeg'} currencyDemoninations={['five']} />
   </div>
 </main>
