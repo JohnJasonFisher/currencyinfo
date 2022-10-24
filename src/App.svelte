@@ -1,5 +1,5 @@
 <script>
-  import Currencyinfo from './lib/Currencyinfo.svelte';
+  import CurrencyInfo from './lib/CurrencyInfo.svelte';
 import DocumentHead from './lib/DocumentHead.svelte';
 </script>
 
@@ -8,6 +8,9 @@ import DocumentHead from './lib/DocumentHead.svelte';
 
   <div class="card">
     <DocumentHead />
-    <Currencyinfo />
+    <button>USD</button>
+    <button>AWG</button>
+    <CurrencyInfo />
+    <CurrencyInfo currencyName={'Aruban Florin'} symbol={'awg'} fileType={'jpeg'} currencyDemonination={'five'} />
   </div>
 </main>
