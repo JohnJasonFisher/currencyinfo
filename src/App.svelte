@@ -1,5 +1,6 @@
 <script>
-  import DocumentHead from './lib/DocumentHead.svelte';
+  import Currencyinfo from './lib/Currencyinfo.svelte';
+import DocumentHead from './lib/DocumentHead.svelte';
 </script>
 
 <main>
@@ -7,7 +8,6 @@
 
   <div class="card">
     <DocumentHead />
-    <img src="src/assets/currency-images/usd/one-usd-front.png" alt="One United States Dollar Front">
-    <img src="src/assets/currency-images/usd/one-usd-back.png" alt="One United States Dollar Back">
+    <Currencyinfo />
   </div>
 </main>
