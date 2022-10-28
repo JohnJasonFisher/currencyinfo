@@ -14,7 +14,6 @@
 		<CurrencyInfo
 			currencyName={'Aruban Florin'}
 			symbol={'awg'}
-			fileType={'jpeg'}
 			currencyDemoninations={['five']}
 		/>
 	</div>
