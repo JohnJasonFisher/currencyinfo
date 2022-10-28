@@ -3,8 +3,8 @@
 	import DocumentHead from './lib/DocumentHead.svelte'
 
 	let showCurrencyInfo = 'usd'
-	let handleShowUsd = () => showCurrencyInfo = 'usd'
-	let handleShowAwg = () => showCurrencyInfo = 'awg'
+	let handleShowUsd = () => (showCurrencyInfo = 'usd')
+	let handleShowAwg = () => (showCurrencyInfo = 'awg')
 </script>
 
 <main>
