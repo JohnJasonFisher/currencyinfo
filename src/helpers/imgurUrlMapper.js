@@ -6,10 +6,37 @@
 //
 export function getImageData(key) {
 	switch (key) {
+		// usd
 		case 'usd-1-front':
 			return { alt: 'usd-1-front', src: 'https://imgur.com/yon8YJ2.jpeg' }
 		case 'usd-1-back':
 			return { alt: 'usd-1-back', src: 'https://imgur.com/OVJIhcc.jpeg' }
+		case 'usd-2-front':
+			return { alt: 'usd-2-front', src: 'https://imgur.com/VgCRIsk.jpeg' }
+		case 'usd-2-back':
+			return { alt: 'usd-2-back', src: 'https://imgur.com/TyiZH2S.jpeg' }
+		case 'usd-5-front':
+			return { alt: 'usd-5-front', src: 'https://imgur.com/Ca50PN6.jpeg' }
+		case 'usd-5-back':
+			return { alt: 'usd-5-back', src: 'https://imgur.com/G43dbhU.jpeg' }
+		case 'usd-10-front':
+			return { alt: 'usd-10-front', src: 'https://imgur.com/CUgX2WV.jpeg' }
+		case 'usd-10-back':
+			return { alt: 'usd-10-back', src: 'https://imgur.com/RKhmmEY.jpeg' }
+		case 'usd-20-front':
+			return { alt: 'usd-20-front', src: 'https://imgur.com/MlHbTIz.jpeg' }
+		case 'usd-20-back':
+			return { alt: 'usd-20-back', src: 'https://imgur.com/JTteVsM.jpeg' }
+		case 'usd-50-front':
+			return { alt: 'usd-50-front', src: 'https://imgur.com/ezh5XuJ.jpeg' }
+		case 'usd-50-back':
+			return { alt: 'usd-50-back', src: 'https://imgur.com/EH2iWaP.jpeg' }
+		case 'usd-100-front':
+			return { alt: 'usd-100-front', src: 'https://imgur.com/y5thBuH.jpeg' }
+		case 'usd-100-back':
+			return { alt: 'usd-100-back', src: 'https://imgur.com/yU0l0qv.jpeg' }
+
+		// cad
 		case 'cad-5-front':
 			return { alt: 'cad-5-front', src: 'https://imgur.com/BIn6cBK.jpeg' }
 		case 'cad-5-back':
@@ -30,6 +57,8 @@ export function getImageData(key) {
 			return { alt: 'cad-100-front', src: 'https://imgur.com/qNllKDI.jpeg' }
 		case 'cad-100-back':
 			return { alt: 'cad-100-bac', src: 'https://imgur.com/Q8Y5vZp.jpeg' }
+
+		// awg
 		case 'awg-10-front':
 			return { alt: 'awg-10-front', src: 'https://imgur.com/VNhuxIC.jpeg' }
 		case 'awg-10-back':
@@ -50,6 +79,8 @@ export function getImageData(key) {
 			return { alt: 'awg-200-front', src: 'https://imgur.com/R8Vrqa4.jpeg' }
 		case 'awg-200-back':
 			return { alt: 'awg-200-back', src: 'https://imgur.com/5cYpRxM.jpeg' }
+
+		// mxn
 		case 'mxn-20-front':
 			return { alt: 'mxn-20-front', src: 'https://imgur.com/tzXQ4lC.jpeg' }
 		case 'mxn-20-back':

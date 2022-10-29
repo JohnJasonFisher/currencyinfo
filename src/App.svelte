@@ -18,7 +18,9 @@
 		<button on:click={() => setCurrencyDetailSymbol('mxn')}>MXN</button>
 
 		{#if currencyDetailSymbol === 'usd'}
-			<CurrencyInfo currencyDemoninations={['1']} />
+			<CurrencyInfo
+				currencyDemoninations={['1', '2', '10', '20', '50', '100']}
+			/>
 		{/if}
 
 		{#if currencyDetailSymbol === 'cad'}
