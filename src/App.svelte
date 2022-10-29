@@ -16,14 +16,14 @@
 		<button on:click={() => setCurrencyDetailSymbol('awg')}>AWG</button>
 
 		{#if currencyDetailSymbol === 'usd'}
-			<CurrencyInfo currencyDemoninations={['one']} />
+			<CurrencyInfo currencyDemoninations={['1']} />
 		{/if}
 
 		{#if currencyDetailSymbol === 'awg'}
 			<CurrencyInfo
 				currencyName={'Aruban Florin'}
 				symbol={'awg'}
-				currencyDemoninations={['five']}
+				currencyDemoninations={['10', '25', '50', '100', '200']}
 			/>
 		{/if}
 	</div>
