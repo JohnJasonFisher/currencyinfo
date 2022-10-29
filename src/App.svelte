@@ -13,11 +13,16 @@
 	<div class="card">
 		<DocumentHead />
 		<button on:click={() => setCurrencyDetailSymbol('usd')}>USD</button>
+		<button on:click={() => setCurrencyDetailSymbol('cad')}>CAD</button>
 		<button on:click={() => setCurrencyDetailSymbol('awg')}>AWG</button>
 		<button on:click={() => setCurrencyDetailSymbol('mxn')}>MXN</button>
 
 		{#if currencyDetailSymbol === 'usd'}
 			<CurrencyInfo currencyDemoninations={['1']} />
+		{/if}
+
+		{#if currencyDetailSymbol === 'cad'}
+			<CurrencyInfo currencyName={'Canadian Dollar'} symbol={'cad'} />
 		{/if}
 
 		{#if currencyDetailSymbol === 'awg'}

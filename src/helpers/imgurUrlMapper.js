@@ -1,8 +1,8 @@
 // Copy Pasta Template
-// case '':
-//     return { alt: '', src: '' }
-// case '':
-//     return { alt: '', src: '' }
+// case 'usd-1-front':
+//     return { alt: 'usd-1-front', src: '.jpeg' }
+// case 'usd-1-back':
+//     return { alt: 'usd-1-back', src: '.jpeg' }
 //
 export function getImageData(key) {
 	switch (key) {
@@ -10,6 +10,26 @@ export function getImageData(key) {
 			return { alt: 'usd-1-front', src: 'https://imgur.com/yon8YJ2.jpeg' }
 		case 'usd-1-back':
 			return { alt: 'usd-1-back', src: 'https://imgur.com/OVJIhcc.jpeg' }
+		case 'cad-5-front':
+			return { alt: 'cad-5-front', src: 'https://imgur.com/BIn6cBK.jpeg' }
+		case 'cad-5-back':
+			return { alt: 'cad-5-back', src: 'https://imgur.com/ozGkjAc.jpeg' }
+		case 'cad-10-front':
+			return { alt: 'cad-10-front', src: 'https://imgur.com/vmdSjFd.jpeg' }
+		case 'cad-10-back':
+			return { alt: 'cad-10-back', src: 'https://imgur.com/s2GxDhA.jpeg' }
+		case 'cad-20-front':
+			return { alt: 'cad-20-front', src: 'https://imgur.com/klpbRLD.jpeg' }
+		case 'cad-20-back':
+			return { alt: 'cad-20-back', src: 'https://imgur.com/vwAKHFX.jpeg' }
+		case 'cad-50-front':
+			return { alt: 'cad-50-front', src: 'https://imgur.com/oZc2L3f.jpeg' }
+		case 'cad-50-back':
+			return { alt: 'cad-50-back', src: 'https://imgur.com/YJXrHU9.jpeg' }
+		case 'cad-100-front':
+			return { alt: 'cad-100-front', src: 'https://imgur.com/qNllKDI.jpeg' }
+		case 'cad-100-back':
+			return { alt: 'cad-100-bac', src: 'https://imgur.com/Q8Y5vZp.jpeg' }
 		case 'awg-10-front':
 			return { alt: 'awg-10-front', src: 'https://imgur.com/VNhuxIC.jpeg' }
 		case 'awg-10-back':
