@@ -2,6 +2,7 @@
 	import { Router, Route } from 'svelte-routing'
 	import Home from './lib/Home.svelte'
 	import DocumentHead from './lib/DocumentHead.svelte'
+	import CurrencyData from './data/currencyData.json'
 
 	export let url = ''
 </script>
@@ -10,10 +11,10 @@
 <Router {url}>
 	<div>
 		<Route path="/"><Home /></Route>
-		<Route path="/usd"><Home /></Route>
-		<Route path="/cad"><Home currencyDetailSymbol="cad" /></Route>
-		<Route path="/mxn"><Home currencyDetailSymbol="mxn" /></Route>
-		<Route path="/eur"><Home currencyDetailSymbol="eur" /></Route>
-		<Route path="/awg"><Home currencyDetailSymbol="awg" /></Route>
+		{#each CurrencyData.currencies as currency}
+			<Route path={currency.symbol}>
+				<Home currencyDetailSymbol={currency.symbol} />
+			</Route>
+		{/each}
 	</div>
 </Router>

@@ -1,0 +1,29 @@
+{
+	"currencies": [
+		{
+			"name": "United States Dollar",
+			"symbol": "usd",
+			"denominations": ["1", "2", "5", "10", "20", "50", "100"]
+		},
+		{
+			"name": "Canadian Dollar",
+			"symbol": "cad",
+			"denominations": ["5", "10", "20", "50", "100"]
+		},
+		{
+			"name": "Mexican Peso",
+			"symbol": "mxn",
+			"denominations": ["20", "50", "100", "200", "500"]
+		},
+		{
+			"name": "European Euro",
+			"symbol": "eur",
+			"denominations": ["10", "20", "50", "100", "200"]
+		},
+		{
+			"name": "Aruban Florin",
+			"symbol": "awg",
+			"denominations": ["10", "25", "50", "100", "200"]
+		}
+	]
+}
