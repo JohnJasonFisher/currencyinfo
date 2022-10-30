@@ -1,55 +1,19 @@
 <script>
-	import CurrencyInfo from './lib/CurrencyInfo.svelte'
+	import { Router, Route } from 'svelte-routing'
+	import Home from './lib/Home.svelte'
 	import DocumentHead from './lib/DocumentHead.svelte'
 
-	let currencyDetailSymbol = 'usd'
-	let setCurrencyDetailSymbol = (currencySymbol) =>
-		(currencyDetailSymbol = currencySymbol)
+	export let url = ''
 </script>
 
-<main>
-	<h1>Currency Collection Tracker and Info</h1>
-
-	<div class="card">
-		<DocumentHead />
-		<button on:click={() => setCurrencyDetailSymbol('usd')}>USD</button>
-		<button on:click={() => setCurrencyDetailSymbol('cad')}>CAD</button>
-		<button on:click={() => setCurrencyDetailSymbol('mxn')}>MXN</button>
-		<button on:click={() => setCurrencyDetailSymbol('eur')}>EUR</button>
-		<button on:click={() => setCurrencyDetailSymbol('awg')}>AWG</button>
-
-		{#if currencyDetailSymbol === 'usd'}
-			<CurrencyInfo
-				currencyDemoninations={['1', '2', '10', '20', '50', '100']}
-			/>
-		{/if}
-
-		{#if currencyDetailSymbol === 'cad'}
-			<CurrencyInfo currencyName={'Canadian Dollar'} symbol={'cad'} />
-		{/if}
-
-		{#if currencyDetailSymbol === 'mxn'}
-			<CurrencyInfo
-				currencyName={'Mexican Peso'}
-				symbol={'mxn'}
-				currencyDemoninations={['20', '50', '100', '200', '500']}
-			/>
-		{/if}
-
-		{#if currencyDetailSymbol === 'eur'}
-			<CurrencyInfo
-				currencyName={'European Euro'}
-				symbol={'eur'}
-				currencyDemoninations={['10', '20', '50', '100', '200']}
-			/>
-		{/if}
-
-		{#if currencyDetailSymbol === 'awg'}
-			<CurrencyInfo
-				currencyName={'Aruban Florin'}
-				symbol={'awg'}
-				currencyDemoninations={['10', '25', '50', '100', '200']}
-			/>
-		{/if}
+<DocumentHead />
+<Router {url}>
+	<div>
+		<Route path="/"><Home /></Route>
+		<Route path="/usd"><Home /></Route>
+		<Route path="/cad"><Home currencyDetailSymbol="cad" /></Route>
+		<Route path="/mxn"><Home currencyDetailSymbol="mxn" /></Route>
+		<Route path="/eur"><Home currencyDetailSymbol="eur" /></Route>
+		<Route path="/awg"><Home currencyDetailSymbol="awg" /></Route>
 	</div>
-</main>
+</Router>
