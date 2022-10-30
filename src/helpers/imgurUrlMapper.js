@@ -56,7 +56,55 @@ export function getImageData(key) {
 		case 'cad-100-front':
 			return { alt: 'cad-100-front', src: 'https://imgur.com/qNllKDI.jpeg' }
 		case 'cad-100-back':
-			return { alt: 'cad-100-bac', src: 'https://imgur.com/Q8Y5vZp.jpeg' }
+			return { alt: 'cad-100-back', src: 'https://imgur.com/Q8Y5vZp.jpeg' }
+
+		// mxn
+		case 'mxn-20-front':
+			return { alt: 'mxn-20-front', src: 'https://imgur.com/tzXQ4lC.jpeg' }
+		case 'mxn-20-back':
+			return { alt: 'mxn-20-back', src: 'https://imgur.com/0PtTjkm.jpeg' }
+		case 'mxn-50-front':
+			return { alt: 'mxn-50-front', src: 'https://imgur.com/VOO7qBe.jpeg' }
+		case 'mxn-50-back':
+			return { alt: 'mxn-50-back', src: 'https://imgur.com/d6bl6YC.jpeg' }
+		case 'mxn-100-front':
+			return { alt: 'mxn-100-front', src: 'https://imgur.com/ym9fPGA.jpeg' }
+		case 'mxn-100-back':
+			return { alt: 'mxn-100-back', src: 'https://imgur.com/wRtthB5.jpeg' }
+		case 'mxn-200-front':
+			return { alt: 'mxn-200-front', src: 'https://imgur.com/NS2fTNg.jpeg' }
+		case 'mxn-200-back':
+			return { alt: 'mxn-200-back', src: 'https://imgur.com/fZzVzYm.jpeg' }
+		case 'mxn-500-front':
+			return { alt: 'mxn-500-front', src: 'https://imgur.com/3n7jUp0.jpeg' }
+		case 'mxn-500-back':
+			return { alt: 'mxn-500-back', src: 'https://imgur.com/1nAi7no.jpeg' }
+
+		// eur
+		case 'eur-5-front':
+			return { alt: 'eur-5-front', src: 'https://imgur.com/z2YH562.jpeg' }
+		case 'eur-5-back':
+			return { alt: 'eur-5-back', src: 'https://imgur.com/EX83pGN.jpeg' }
+		case 'eur-10-front':
+			return { alt: 'eur-10-front', src: 'https://imgur.com/dLkPBU8.jpeg' }
+		case 'eur-10-back':
+			return { alt: 'eur-10-back', src: 'https://imgur.com/9a7FNCc.jpeg' }
+		case 'eur-20-front':
+			return { alt: 'eur-20-front', src: 'https://imgur.com/GdC2EZu.jpeg' }
+		case 'eur-20-back':
+			return { alt: 'eur-20-back', src: 'https://imgur.com/IHDJ7Ao.jpeg' }
+		case 'eur-50-front':
+			return { alt: 'eur-50-front', src: 'https://imgur.com/KuPKZCn.jpeg' }
+		case 'eur-50-back':
+			return { alt: 'eur-50-back', src: 'https://imgur.com/JYvVW48.jpeg' }
+		case 'eur-100-front':
+			return { alt: 'eur-100-front', src: 'https://imgur.com/2ZhgLJs.jpeg' }
+		case 'eur-100-back':
+			return { alt: 'eur-100-bac', src: 'https://imgur.com/pmDStRK.jpeg' }
+		case 'eur-200-front':
+			return { alt: 'eur-200-front', src: 'https://imgur.com/SueEd12.jpeg' }
+		case 'eur-200-back':
+			return { alt: 'eur-200-back', src: 'https://imgur.com/v9KXvjV.jpeg' }
 
 		// awg
 		case 'awg-10-front':
@@ -80,27 +128,6 @@ export function getImageData(key) {
 		case 'awg-200-back':
 			return { alt: 'awg-200-back', src: 'https://imgur.com/5cYpRxM.jpeg' }
 
-		// mxn
-		case 'mxn-20-front':
-			return { alt: 'mxn-20-front', src: 'https://imgur.com/tzXQ4lC.jpeg' }
-		case 'mxn-20-back':
-			return { alt: 'mxn-20-back', src: 'https://imgur.com/0PtTjkm.jpeg' }
-		case 'mxn-50-front':
-			return { alt: 'mxn-50-front', src: 'https://imgur.com/VOO7qBe.jpeg' }
-		case 'mxn-50-back':
-			return { alt: 'mxn-50-back', src: 'https://imgur.com/d6bl6YC.jpeg' }
-		case 'mxn-100-front':
-			return { alt: 'mxn-100-front', src: 'https://imgur.com/ym9fPGA.jpeg' }
-		case 'mxn-100-back':
-			return { alt: 'mxn-100-back', src: 'https://imgur.com/wRtthB5.jpeg' }
-		case 'mxn-200-front':
-			return { alt: 'mxn-200-front', src: 'https://imgur.com/NS2fTNg.jpeg' }
-		case 'mxn-200-back':
-			return { alt: 'mxn-200-back', src: 'https://imgur.com/fZzVzYm.jpeg' }
-		case 'mxn-500-front':
-			return { alt: 'mxn-500-front', src: 'https://imgur.com/3n7jUp0.jpeg' }
-		case 'mxn-500-back':
-			return { alt: 'mxn-500-back', src: 'https://imgur.com/1nAi7no.jpeg' }
 		default:
 			return null
 	}

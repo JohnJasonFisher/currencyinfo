@@ -14,8 +14,9 @@
 		<DocumentHead />
 		<button on:click={() => setCurrencyDetailSymbol('usd')}>USD</button>
 		<button on:click={() => setCurrencyDetailSymbol('cad')}>CAD</button>
-		<button on:click={() => setCurrencyDetailSymbol('awg')}>AWG</button>
 		<button on:click={() => setCurrencyDetailSymbol('mxn')}>MXN</button>
+		<button on:click={() => setCurrencyDetailSymbol('eur')}>EUR</button>
+		<button on:click={() => setCurrencyDetailSymbol('awg')}>AWG</button>
 
 		{#if currencyDetailSymbol === 'usd'}
 			<CurrencyInfo
@@ -27,19 +28,27 @@
 			<CurrencyInfo currencyName={'Canadian Dollar'} symbol={'cad'} />
 		{/if}
 
-		{#if currencyDetailSymbol === 'awg'}
-			<CurrencyInfo
-				currencyName={'Aruban Florin'}
-				symbol={'awg'}
-				currencyDemoninations={['10', '25', '50', '100', '200']}
-			/>
-		{/if}
-
 		{#if currencyDetailSymbol === 'mxn'}
 			<CurrencyInfo
 				currencyName={'Mexican Peso'}
 				symbol={'mxn'}
 				currencyDemoninations={['20', '50', '100', '200', '500']}
+			/>
+		{/if}
+
+		{#if currencyDetailSymbol === 'eur'}
+			<CurrencyInfo
+				currencyName={'European Euro'}
+				symbol={'eur'}
+				currencyDemoninations={['10', '20', '50', '100', '200']}
+			/>
+		{/if}
+
+		{#if currencyDetailSymbol === 'awg'}
+			<CurrencyInfo
+				currencyName={'Aruban Florin'}
+				symbol={'awg'}
+				currencyDemoninations={['10', '25', '50', '100', '200']}
 			/>
 		{/if}
 	</div>
