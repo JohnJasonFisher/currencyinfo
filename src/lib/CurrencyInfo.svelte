@@ -1,18 +1,18 @@
 <script>
 	import { getImageData } from '../helpers/imgurUrlMapper'
 
-	export let currencyName = 'United States Dollar'
-	export let symbol = 'usd'
-	export let currencyDemoninations = ['5', '10', '20', '50', '100']
+	export let name
+	export let symbol
+	export let denominations
 
 	const allImageSources = []
-	currencyDemoninations.forEach((demonination) => {
-		allImageSources.push(getImageData(`${symbol}-${demonination}-front`))
-		allImageSources.push(getImageData(`${symbol}-${demonination}-back`))
+	denominations.forEach((denominations) => {
+		allImageSources.push(getImageData(`${symbol}-${denominations}-front`))
+		allImageSources.push(getImageData(`${symbol}-${denominations}-back`))
 	})
 </script>
 
-<h2>{currencyName} - {symbol.toUpperCase()}</h2>
+<h2>{name} - {symbol.toUpperCase()}</h2>
 
 {#each allImageSources as image}
 	<img src={image.src} alt={image.alt} />
