@@ -1,7 +1,7 @@
 <script>
 	import { Router, Route } from 'svelte-routing'
-	import Home from './lib/Home.svelte'
-	import DocumentHead from './lib/DocumentHead.svelte'
+	import Home from './components/Home.svelte'
+	import DocumentHead from './components/DocumentHead.svelte'
 	import CurrencyData from './data/currencyData.json'
 
 	export let url = ''
