@@ -3,27 +3,93 @@
 		{
 			"name": "United States Dollar",
 			"symbol": "usd",
-			"denominations": ["1", "2", "5", "10", "20", "50", "100"]
+			"denominations": ["1", "2", "5", "10", "20", "50", "100"],
+			"imageData": [
+				{ "alt": "usd-1-front", "src": "https://imgur.com/yon8YJ2.jpeg" },
+				{ "alt": "usd-1-back", "src": "https://imgur.com/OVJIhcc.jpeg" },
+				{ "alt": "usd-2-front", "src": "https://imgur.com/VgCRIsk.jpeg" },
+				{ "alt": "usd-2-back", "src": "https://imgur.com/TyiZH2S.jpeg" },
+				{ "alt": "usd-5-front", "src": "https://imgur.com/Ca50PN6.jpeg" },
+				{ "alt": "usd-5-back", "src": "https://imgur.com/G43dbhU.jpeg" },
+				{ "alt": "usd-10-front", "src": "https://imgur.com/CUgX2WV.jpeg" },
+				{ "alt": "usd-10-back", "src": "https://imgur.com/RKhmmEY.jpeg" },
+				{ "alt": "usd-20-front", "src": "https://imgur.com/MlHbTIz.jpeg" },
+				{ "alt": "usd-20-back", "src": "https://imgur.com/JTteVsM.jpeg" },
+				{ "alt": "usd-50-front", "src": "https://imgur.com/ezh5XuJ.jpeg" },
+				{ "alt": "usd-50-back", "src": "https://imgur.com/EH2iWaP.jpeg" },
+				{ "alt": "usd-100-front", "src": "https://imgur.com/y5thBuH.jpeg" },
+				{ "alt": "usd-100-back", "src": "https://imgur.com/yU0l0qv.jpeg" }
+			]
 		},
 		{
 			"name": "Canadian Dollar",
 			"symbol": "cad",
-			"denominations": ["5", "10", "20", "50", "100"]
+			"denominations": ["5", "10", "20", "50", "100"],
+			"imageData": [
+				{ "alt": "cad-5-front", "src": "https://imgur.com/BIn6cBK.jpeg" },
+				{ "alt": "cad-5-back", "src": "https://imgur.com/ozGkjAc.jpeg" },
+				{ "alt": "cad-10-front", "src": "https://imgur.com/vmdSjFd.jpeg" },
+				{ "alt": "cad-10-back", "src": "https://imgur.com/s2GxDhA.jpeg" },
+				{ "alt": "cad-20-front", "src": "https://imgur.com/klpbRLD.jpeg" },
+				{ "alt": "cad-20-back", "src": "https://imgur.com/vwAKHFX.jpeg" },
+				{ "alt": "cad-50-front", "src": "https://imgur.com/oZc2L3f.jpeg" },
+				{ "alt": "cad-50-back", "src": "https://imgur.com/YJXrHU9.jpeg" },
+				{ "alt": "cad-100-front", "src": "https://imgur.com/qNllKDI.jpeg" },
+				{ "alt": "cad-100-back", "src": "https://imgur.com/Q8Y5vZp.jpeg" }
+			]
 		},
 		{
 			"name": "Mexican Peso",
 			"symbol": "mxn",
-			"denominations": ["20", "50", "100", "200", "500"]
+			"denominations": ["20", "50", "100", "200", "500"],
+			"imageData": [
+				{ "alt": "mxn-20-front", "src": "https://imgur.com/tzXQ4lC.jpeg" },
+				{ "alt": "mxn-20-back", "src": "https://imgur.com/0PtTjkm.jpeg" },
+				{ "alt": "mxn-50-front", "src": "https://imgur.com/VOO7qBe.jpeg" },
+				{ "alt": "mxn-50-back", "src": "https://imgur.com/d6bl6YC.jpeg" },
+				{ "alt": "mxn-100-front", "src": "https://imgur.com/ym9fPGA.jpeg" },
+				{ "alt": "mxn-100-back", "src": "https://imgur.com/wRtthB5.jpeg" },
+				{ "alt": "mxn-200-front", "src": "https://imgur.com/NS2fTNg.jpeg" },
+				{ "alt": "mxn-200-back", "src": "https://imgur.com/fZzVzYm.jpeg" },
+				{ "alt": "mxn-500-front", "src": "https://imgur.com/3n7jUp0.jpeg" },
+				{ "alt": "mxn-500-back", "src": "https://imgur.com/1nAi7no.jpeg" }
+			]
 		},
 		{
 			"name": "European Euro",
 			"symbol": "eur",
-			"denominations": ["10", "20", "50", "100", "200"]
+			"denominations": ["10", "20", "50", "100", "200"],
+			"imageData": [
+				{ "alt": "eur-5-front", "src": "https://imgur.com/z2YH562.jpeg" },
+				{ "alt": "eur-5-back", "src": "https://imgur.com/EX83pGN.jpeg" },
+				{ "alt": "eur-10-front", "src": "https://imgur.com/dLkPBU8.jpeg" },
+				{ "alt": "eur-10-back", "src": "https://imgur.com/9a7FNCc.jpeg" },
+				{ "alt": "eur-20-front", "src": "https://imgur.com/GdC2EZu.jpeg" },
+				{ "alt": "eur-20-back", "src": "https://imgur.com/IHDJ7Ao.jpeg" },
+				{ "alt": "eur-50-front", "src": "https://imgur.com/KuPKZCn.jpeg" },
+				{ "alt": "eur-50-back", "src": "https://imgur.com/JYvVW48.jpeg" },
+				{ "alt": "eur-100-front", "src": "https://imgur.com/2ZhgLJs.jpeg" },
+				{ "alt": "eur-100-bac", "src": "https://imgur.com/pmDStRK.jpeg" },
+				{ "alt": "eur-200-front", "src": "https://imgur.com/SueEd12.jpeg" },
+				{ "alt": "eur-200-back", "src": "https://imgur.com/v9KXvjV.jpeg" }
+			]
 		},
 		{
 			"name": "Aruban Florin",
 			"symbol": "awg",
-			"denominations": ["10", "25", "50", "100", "200"]
+			"denominations": ["10", "25", "50", "100", "200"],
+			"imageData": [
+				{ "alt": "awg-10-front", "src": "https://imgur.com/VNhuxIC.jpeg" },
+				{ "alt": "awg-10-back", "src": "https://imgur.com/m2nZkWK.jpeg" },
+				{ "alt": "awg-25-front", "src": "https://imgur.com/46Z8F8t.jpeg" },
+				{ "alt": "awg-25-back", "src": "https://imgur.com/l9otirt.jpeg" },
+				{ "alt": "awg-50-front", "src": "https://imgur.com/R5UOuCl.jpeg" },
+				{ "alt": "awg-50-back", "src": "https://imgur.com/pVgUwIF.jpeg" },
+				{ "alt": "awg-100-front", "src": "https://imgur.com/g7aVjCS.jpeg" },
+				{ "alt": "awg-100-back", "src": "https://imgur.com/zHraW7N.jpeg" },
+				{ "alt": "awg-200-front", "src": "https://imgur.com/R8Vrqa4.jpeg" },
+				{ "alt": "awg-200-back", "src": "https://imgur.com/5cYpRxM.jpeg" }
+			]
 		}
 	]
 }

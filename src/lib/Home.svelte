@@ -23,7 +23,7 @@
 		<CurrencyInfo
 			name={currency.name}
 			symbol={currency.symbol}
-			denominations={currency.denominations}
+			imageData={currency.imageData}
 		/>
 	</div>
 </main>

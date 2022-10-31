@@ -1,20 +1,12 @@
 <script>
-	import { getImageData } from '../helpers/imgurUrlMapper'
-
 	export let name
 	export let symbol
-	export let denominations
-
-	const allImageSources = []
-	denominations.forEach((denominations) => {
-		allImageSources.push(getImageData(`${symbol}-${denominations}-front`))
-		allImageSources.push(getImageData(`${symbol}-${denominations}-back`))
-	})
+	export let imageData
 </script>
 
 <h2>{name} - {symbol.toUpperCase()}</h2>
 
-{#each allImageSources as image}
+{#each imageData as image}
 	<img src={image.src} alt={image.alt} />
 {/each}
 
