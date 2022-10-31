@@ -1,15 +1,12 @@
 <script>
 	import { navigate, Route } from 'svelte-routing'
 	import CurrencyInfo from './CurrencyInfo.svelte'
+	import CurrencyData from '../data/currencyData.json'
 
 	export let currency
-	const pages = [
-		{ route: 'usd', label: 'USD' },
-		{ route: 'cad', label: 'CAD' },
-		{ route: 'mxn', label: 'MXN' },
-		{ route: 'eur', label: 'EUR' },
-		{ route: 'awg', label: 'AWG' },
-	]
+	const pages = CurrencyData.currencies.map(
+		(currency) => ({ route: currency.symbol, label: currency.symbol.toUpperCase() })
+	)
 </script>
 
 <main>
