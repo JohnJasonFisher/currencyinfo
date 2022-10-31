@@ -4,9 +4,10 @@
 	import CurrencyData from '../data/currencyData.json'
 
 	export let currency
-	const pages = CurrencyData.currencies.map(
-		(currency) => ({ route: currency.symbol, label: currency.symbol.toUpperCase() })
-	)
+	const pages = CurrencyData.currencies.map((currency) => ({
+		route: currency.symbol,
+		label: currency.symbol.toUpperCase(),
+	}))
 </script>
 
 <main>
