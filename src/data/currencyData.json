@@ -100,6 +100,27 @@
 				{ "alt": "awg-200-front", "src": "https://imgur.com/R8Vrqa4.jpeg" },
 				{ "alt": "awg-200-back", "src": "https://imgur.com/5cYpRxM.jpeg" }
 			]
+		},
+		{
+			"name": "Polish Zloty",
+			"symbol": "pln",
+			"price": 4.77,
+			"datePriceChecked": "2022-10-31T14:38:37.673Z",
+			"denominations": ["10", "20", "50", "100", "200", "500"],
+			"imageData": [
+				{ "alt": "pln-10-front", "src": "https://imgur.com/IuGrwoM.jpeg" },
+				{ "alt": "pln-10-back", "src": "https://imgur.com/3gdk3nr.jpeg" },
+				{ "alt": "pln-20-front", "src": "https://imgur.com/61BRowd.jpeg" },
+				{ "alt": "pln-20-back", "src": "https://imgur.com/iCxVfMC.jpeg" },
+				{ "alt": "pln-50-front", "src": "https://imgur.com/Jivv9XR.jpeg" },
+				{ "alt": "pln-50-back", "src": "https://imgur.com/MkUXTXE.jpeg" },
+				{ "alt": "pln-100-front", "src": "https://imgur.com/MNQVahH.jpeg" },
+				{ "alt": "pln-100-back", "src": "https://imgur.com/I0sqsbp.jpeg" },
+				{ "alt": "pln-200-front", "src": "https://imgur.com/cKcoza7.jpeg" },
+				{ "alt": "pln-200-back", "src": "https://imgur.com/1oQLLfj.jpeg" },
+				{ "alt": "pln-500-front", "src": "https://imgur.com/1oQLLfj.jpeg" },
+				{ "alt": "pln-500-back", "src": "https://imgur.com/ca9NuKH.jpeg" }
+			]
 		}
 	]
 }
