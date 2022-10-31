@@ -6,7 +6,7 @@ export const getPrice = async (symbol, price, datePriceChecked) => {
 	const isPriceOutOfDate =
 		new Date(datePriceChecked) < new Date(currentDateTime)
 
-	if (!isPriceOutOfDate) return price
+	if (!isPriceOutOfDate || symbol === 'usd') return price
 
 	// const cachedPrice = await storeInCache(symbol)
 	// if (cachedPrice) return cachedPrice
@@ -16,9 +16,14 @@ export const getPrice = async (symbol, price, datePriceChecked) => {
 
 const fetchFromApi = async (symbol) => {
 	const response = await axios.get(
-		`https://api.polygon.io/v2/aggs/ticker/C:${symbol.toUpperCase()}USD/prev?adjusted=true&apiKey=VQaScxsItHK0WH0f6QLJlNOa1YOcvyUj`
+		`https://api.polygon.io/v2/aggs/ticker/C:${symbol.toUpperCase()}USD/prev`,
+		{
+			headers: {
+				Authorization: `Bearer ${import.meta.env.VITE_POLYGON_APi_KEY}`,
+			},
+		}
 	)
-	const responsePrice = response.data.results[0].c
+	const responsePrice = 1 / response.data.results[0].c
 	return _.round(responsePrice, 2)
 }
 
