@@ -27,7 +27,7 @@
 			"name": "Canadian Dollar",
 			"symbol": "cad",
 			"price": 1.37,
-			"datePriceChecked": "2022-11-31T14:38:37.673Z",
+			"datePriceChecked": "2021-11-31T14:38:37.673Z",
 			"denominations": ["5", "10", "20", "50", "100"],
 			"imageData": [
 				{ "alt": "cad-5-front", "src": "https://imgur.com/BIn6cBK.jpeg" },
@@ -46,7 +46,7 @@
 			"name": "Mexican Peso",
 			"symbol": "mxn",
 			"price": 19.83,
-			"datePriceChecked": "2022-11-31T14:38:37.673Z",
+			"datePriceChecked": "2021-11-31T14:38:37.673Z",
 			"denominations": ["20", "50", "100", "200", "500"],
 			"imageData": [
 				{ "alt": "mxn-20-front", "src": "https://imgur.com/tzXQ4lC.jpeg" },
@@ -65,7 +65,7 @@
 			"name": "European Euro",
 			"symbol": "eur",
 			"price": 1.01,
-			"datePriceChecked": "2022-11-31T14:38:37.673Z",
+			"datePriceChecked": "2021-11-31T14:38:37.673Z",
 			"denominations": ["10", "20", "50", "100", "200"],
 			"imageData": [
 				{ "alt": "eur-5-front", "src": "https://imgur.com/z2YH562.jpeg" },
@@ -86,7 +86,7 @@
 			"name": "Aruban Florin",
 			"symbol": "awg",
 			"price": 1.8,
-			"datePriceChecked": "2022-11-31T14:38:37.673Z",
+			"datePriceChecked": "2021-11-31T14:38:37.673Z",
 			"denominations": ["10", "25", "50", "100", "200"],
 			"imageData": [
 				{ "alt": "awg-10-front", "src": "https://imgur.com/VNhuxIC.jpeg" },
@@ -105,7 +105,7 @@
 			"name": "Polish Zloty",
 			"symbol": "pln",
 			"price": 4.77,
-			"datePriceChecked": "2022-11-31T14:38:37.673Z",
+			"datePriceChecked": "2021-11-31T14:38:37.673Z",
 			"denominations": ["10", "20", "50", "100", "200", "500"],
 			"imageData": [
 				{ "alt": "pln-10-front", "src": "https://imgur.com/IuGrwoM.jpeg" },
