@@ -17,7 +17,7 @@
 {:then actualPrice}
 	<p>1 usd can buy {actualPrice} {symbol}</p>
 {:catch error}
-	<p style="color: red">{error.message}</p>
+	<p style="color: red">Failed to fetch price data.</p>
 {/await}
 
 {#each imageData as image}
