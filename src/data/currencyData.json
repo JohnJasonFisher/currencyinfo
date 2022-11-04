@@ -26,8 +26,8 @@
 		{
 			"name": "Canadian Dollar",
 			"symbol": "cad",
-			"price": 1.37,
-			"datePriceChecked": "2021-11-31T14:38:37.673Z",
+			"price": 1.35,
+			"datePriceChecked": "2022-11-04T14:16:01.621Z",
 			"denominations": ["5", "10", "20", "50", "100"],
 			"imageData": [
 				{ "alt": "cad-5-front", "src": "https://imgur.com/BIn6cBK.jpeg" },
@@ -45,8 +45,8 @@
 		{
 			"name": "Mexican Peso",
 			"symbol": "mxn",
-			"price": 19.83,
-			"datePriceChecked": "2021-11-31T14:38:37.673Z",
+			"price": 19.49,
+			"datePriceChecked": "2022-11-04T14:16:01.621Z",
 			"denominations": ["20", "50", "100", "200", "500"],
 			"imageData": [
 				{ "alt": "mxn-20-front", "src": "https://imgur.com/tzXQ4lC.jpeg" },
@@ -65,7 +65,7 @@
 			"name": "European Euro",
 			"symbol": "eur",
 			"price": 1.01,
-			"datePriceChecked": "2021-11-31T14:38:37.673Z",
+			"datePriceChecked": "2022-11-04T14:16:01.621Z",
 			"denominations": ["10", "20", "50", "100", "200"],
 			"imageData": [
 				{ "alt": "eur-5-front", "src": "https://imgur.com/z2YH562.jpeg" },
@@ -86,7 +86,7 @@
 			"name": "Aruban Florin",
 			"symbol": "awg",
 			"price": 1.8,
-			"datePriceChecked": "2021-11-31T14:38:37.673Z",
+			"datePriceChecked": "2022-11-04T14:16:01.621Z",
 			"denominations": ["10", "25", "50", "100", "200"],
 			"imageData": [
 				{ "alt": "awg-10-front", "src": "https://imgur.com/VNhuxIC.jpeg" },
@@ -104,8 +104,8 @@
 		{
 			"name": "Polish Zloty",
 			"symbol": "pln",
-			"price": 4.77,
-			"datePriceChecked": "2021-11-31T14:38:37.673Z",
+			"price": 4.74,
+			"datePriceChecked": "2022-11-04T14:16:01.621Z",
 			"denominations": ["10", "20", "50", "100", "200", "500"],
 			"imageData": [
 				{ "alt": "pln-10-front", "src": "https://imgur.com/IuGrwoM.jpeg" },
@@ -120,6 +120,25 @@
 				{ "alt": "pln-200-back", "src": "https://imgur.com/1oQLLfj.jpeg" },
 				{ "alt": "pln-500-front", "src": "https://imgur.com/bH9dke1.jpeg" },
 				{ "alt": "pln-500-back", "src": "https://imgur.com/ca9NuKH.jpeg" }
+			]
+		},
+		{
+			"name": "Australian Dollar",
+			"symbol": "aud",
+			"price": 1.55,
+			"datePriceChecked": "2022-11-04T14:16:01.621Z",
+			"denominations": ["5", "10", "20", "50", "100"],
+			"imageData": [
+				{ "alt": "aud-50-front", "src": "https://imgur.com/YHX6kSt.jpeg" },
+				{ "alt": "aud-50-back", "src": "https://imgur.com/ml9Y9z1.jpeg" },
+				{ "alt": "aud-10-front", "src": "https://imgur.com/HDUY1xm.jpeg" },
+				{ "alt": "aud-10-back", "src": "https://imgur.com/EItMa2k.jpeg" },
+				{ "alt": "aud-20-front", "src": "https://imgur.com/w83fZku.jpeg" },
+				{ "alt": "aud-20-back", "src": "https://imgur.com/aIEqFJX.jpeg" },
+				{ "alt": "aud-50-front", "src": "https://imgur.com/xDqdVEQ.jpeg" },
+				{ "alt": "aud-50-back", "src": "https://imgur.com/1g3pakV.jpeg" },
+				{ "alt": "aud-100-front", "src": "https://imgur.com/23HYUzW.jpeg" },
+				{ "alt": "aud-100-back", "src": "https://imgur.com/Eub7PqA.jpeg" }
 			]
 		}
 	]
