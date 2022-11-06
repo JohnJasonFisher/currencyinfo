@@ -1,11 +1,7 @@
 import axios from 'axios'
 
-export const getPrice = async (symbol, price, datePriceChecked) => {
-	const currentDateTime = new Date().toISOString()
-	const isPriceOutOfDate =
-		new Date(datePriceChecked) < new Date(currentDateTime)
-
-	if (!isPriceOutOfDate || symbol === 'usd') return price
+export const getPrice = async (symbol) => {
+	if (symbol === 'usd') return 1
 	return fetchPrice(symbol)
 }
 

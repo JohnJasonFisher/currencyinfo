@@ -3,11 +3,9 @@
 
 	export let name = 'United States Dollar'
 	export let symbol = 'usd'
-	export let price = 1
-	export let datePriceChecked = '2021-10-31T14:38:37.673Z'
 	export let imageData
 
-	const pricePromise = getPrice(symbol, price, datePriceChecked)
+	const pricePromise = getPrice(symbol)
 </script>
 
 <h2>{name} - {symbol.toUpperCase()}</h2>
@@ -25,6 +23,9 @@
 {/each}
 
 <style>
+	p {
+		font-size: 1.3rem;
+	}
 	img {
 		margin: 5px 10px;
 		max-width: 450px;

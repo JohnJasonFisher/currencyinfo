@@ -23,8 +23,6 @@
 		<CurrencyInfo
 			name={currency.name}
 			symbol={currency.symbol}
-			price={currency.price}
-			datePriceChecked={currency.datePriceChecked}
 			imageData={currency.imageData}
 		/>
 	</div>
