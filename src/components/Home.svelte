@@ -4,12 +4,14 @@
 	import CurrencyData from '../data/currencyData.json'
 
 	export let currency
-	const pages = CurrencyData.currencies
-		.filter((cur) => cur.symbol !== currency.symbol)
-		.map((cur) => ({
-			route: cur.symbol,
-			label: cur.symbol.toUpperCase(),
-		}))
+	const pages = CurrencyData.currencies.map((cur) => ({
+		route: cur.symbol,
+		label: cur.symbol.toUpperCase(),
+		symbol: cur.symbol,
+	}))
+
+	let defaultButtonColor = '#1a1a1a9a'
+	let activeButtonColor = '#3cb65f'
 </script>
 
 <main>
@@ -17,7 +19,14 @@
 
 	<div class="card">
 		{#each pages as page}
-			<button on:click={() => navigate(page.route)}>{page.label}</button>
+			<button
+				on:click={() => navigate(page.route)}
+				style="background-color: {page.symbol === currency.symbol
+					? activeButtonColor
+					: defaultButtonColor}"
+			>
+				{page.label}
+			</button>
 		{/each}
 
 		<CurrencyInfo
