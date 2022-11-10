@@ -2,15 +2,16 @@ import axios from 'axios'
 import _ from 'lodash'
 import Redis from 'ioredis'
 
-const redis = new Redis(process.env.REDIS_CONNECTION_STRING)
-const SECONDS_IN_A_DAY = 60 * 60 * 24
+const REDIS_CONNECTION_STRING =
+	process.env.REDIS_CONNECTION_STRING || 'no connection string'
+const redis = new Redis(REDIS_CONNECTION_STRING)
 
 export default async function handler(request, response) {
 	const { symbol } = request.query
 	try {
 		let price = await getPriceFromRedis(symbol)
 		if (!price) {
-			price = await getPriceFromPolygonApi(symbol)
+			price = await (await getPriceFromPolygonApi(symbol)).toString()
 			await setPriceInRedis(symbol, price)
 		}
 		return response.status(200).json({ price })
@@ -30,7 +31,7 @@ async function getPriceFromRedis(symbol) {
 
 async function setPriceInRedis(symbol, price) {
 	try {
-		return redis.set(`${symbol}Price`, price, 'EX', SECONDS_IN_A_DAY)
+		return redis.set(`${symbol}Price`, price)
 	} catch (error) {
 		console.log('error from setPriceInRedis', error.message)
 		throw error
