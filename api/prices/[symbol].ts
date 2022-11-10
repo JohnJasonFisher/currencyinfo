@@ -7,11 +7,11 @@ const REDIS_CONNECTION_STRING =
 const redis = new Redis(REDIS_CONNECTION_STRING)
 
 export default async function handler(request, response) {
-	const { symbol } = request.query
+	const symbol: string = request.query.symbol
 	try {
-		let price = await getPriceFromRedis(symbol)
+		let price: string | null = await getPriceFromRedis(symbol)
 		if (!price) {
-			price = await (await getPriceFromPolygonApi(symbol)).toString()
+			price = await await getPriceFromPolygonApi(symbol)
 			await setPriceInRedis(symbol, price)
 		}
 		return response.status(200).json({ price })
@@ -38,7 +38,7 @@ async function setPriceInRedis(symbol, price) {
 	}
 }
 
-async function getPriceFromPolygonApi(symbol) {
+async function getPriceFromPolygonApi(symbol: string): Promise<string> {
 	try {
 		const polygonResponse = await axios.get(
 			`https://api.polygon.io/v2/aggs/ticker/C:${symbol.toUpperCase()}USD/prev`,
@@ -50,7 +50,7 @@ async function getPriceFromPolygonApi(symbol) {
 		)
 		const rawPrice = polygonResponse.data.results[0].c
 		const pricePerOneUsd = 1 / rawPrice
-		return _.round(pricePerOneUsd, 2)
+		return _.round(pricePerOneUsd, 2).toString()
 	} catch (error) {
 		const { status, statusText, data } = error.response
 		console.error('error from getPriceFromPolygonApi', {
