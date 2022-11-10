@@ -7,7 +7,7 @@ export const getPrice = async (symbol) => {
 
 const fetchPrice = async (symbol) => {
 	const response = await axios.get(
-		`${import.meta.env.VITE_APP_BASE_URL}/api/prices/${symbol}`
+		`${import.meta.env.VITE_APP_BASE_URL}/api/prices?symbol=${symbol}`
 	)
 	return response.data.price
 }
