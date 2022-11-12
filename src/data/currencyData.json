@@ -94,6 +94,21 @@
 			]
 		},
 		{
+			"name": "Great British Pound",
+			"symbol": "gbp",
+			"denominations": ["5", "10", "20", "50"],
+			"imageData": [
+				{ "alt": "gbp-5-front", "src": "https://imgur.com/wwvw786.jpeg" },
+				{ "alt": "gbp-5-back", "src": "https://imgur.com/14I3ZUE.jpeg" },
+				{ "alt": "gbp-10-front", "src": "https://imgur.com/QVDyUYC.jpeg" },
+				{ "alt": "gbp-10-back", "src": "https://imgur.com/AmY6X6R.jpeg" },
+				{ "alt": "gbp-20-front", "src": "https://imgur.com/1hEXSl1.jpeg" },
+				{ "alt": "gbp-20-back", "src": "https://imgur.com/FCQRd1B.jpeg" },
+				{ "alt": "gbp-50-front", "src": "https://imgur.com/3RxHmFX.jpeg" },
+				{ "alt": "gbp-50-back", "src": "https://imgur.com/taAF9qQ.jpeg" }
+			]
+		},
+		{
 			"name": "Polish Zloty",
 			"symbol": "pln",
 			"denominations": ["10", "20", "50", "100", "200", "500"],
