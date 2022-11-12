@@ -145,6 +145,23 @@
 				{ "alt": "chf-1000-front", "src": "https://imgur.com/scL4kUC.jpeg" },
 				{ "alt": "chf-1000-back", "src": "https://imgur.com/mSsc0NC.jpeg" }
 			]
+		},
+		{
+			"name": "New Zealand dollar",
+			"symbol": "nzd",
+			"denominations": ["5", "10", "20", "50", "100"],
+			"imageData": [
+				{ "alt": "nzd-5-front", "src": "https://imgur.com/YYqi9JT.jpeg" },
+				{ "alt": "nzd-5-back", "src": "https://imgur.com/QlBQFb7.jpeg" },
+				{ "alt": "nzd-10-front", "src": "https://imgur.com/pZ7rm1a.jpeg" },
+				{ "alt": "nzd-10-back", "src": "https://imgur.com/XzAx1Ka.jpeg" },
+				{ "alt": "nzd-20-front", "src": "https://imgur.com/JL7vNgB.jpeg" },
+				{ "alt": "nzd-20-back", "src": "https://imgur.com/0ZVeHtW.jpeg" },
+				{ "alt": "nzd-50-front", "src": "https://imgur.com/iUxFG36.jpeg" },
+				{ "alt": "nzd-50-back", "src": "https://imgur.com/2UqxQ3U.jpeg" },
+				{ "alt": "nzd-100-front", "src": "https://imgur.com/9SHBkYC.jpeg" },
+				{ "alt": "nzd-100-back", "src": "https://imgur.com/LyhZu67.jpeg" }
+			]
 		}
 	]
 }
