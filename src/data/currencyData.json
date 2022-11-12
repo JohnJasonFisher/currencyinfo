@@ -75,20 +75,22 @@
 			]
 		},
 		{
-			"name": "Aruban Florin",
-			"symbol": "awg",
-			"denominations": ["10", "25", "50", "100", "200"],
+			"name": "Swiss Franc",
+			"symbol": "chf",
+			"denominations": ["10", "20", "50", "100", "200", "1000"],
 			"imageData": [
-				{ "alt": "awg-10-front", "src": "https://imgur.com/VNhuxIC.jpeg" },
-				{ "alt": "awg-10-back", "src": "https://imgur.com/m2nZkWK.jpeg" },
-				{ "alt": "awg-25-front", "src": "https://imgur.com/46Z8F8t.jpeg" },
-				{ "alt": "awg-25-back", "src": "https://imgur.com/l9otirt.jpeg" },
-				{ "alt": "awg-50-front", "src": "https://imgur.com/R5UOuCl.jpeg" },
-				{ "alt": "awg-50-back", "src": "https://imgur.com/pVgUwIF.jpeg" },
-				{ "alt": "awg-100-front", "src": "https://imgur.com/g7aVjCS.jpeg" },
-				{ "alt": "awg-100-back", "src": "https://imgur.com/zHraW7N.jpeg" },
-				{ "alt": "awg-200-front", "src": "https://imgur.com/R8Vrqa4.jpeg" },
-				{ "alt": "awg-200-back", "src": "https://imgur.com/5cYpRxM.jpeg" }
+				{ "alt": "chf-10-front", "src": "https://imgur.com/xHOz1oE.jpeg" },
+				{ "alt": "chf-10-back", "src": "https://imgur.com/9iYmzw2.jpeg" },
+				{ "alt": "chf-20-front", "src": "https://imgur.com/zaJn2dx.jpeg" },
+				{ "alt": "chf-20-back", "src": "https://imgur.com/PV07Ko9.jpeg" },
+				{ "alt": "chf-50-front", "src": "https://imgur.com/E1hxIBz.jpeg" },
+				{ "alt": "chf-50-back", "src": "https://imgur.com/BtKSFVc.jpeg" },
+				{ "alt": "chf-100-front", "src": "https://imgur.com/N5s9anQ.jpeg" },
+				{ "alt": "chf-100-back", "src": "https://imgur.com/RhTylA3.jpeg" },
+				{ "alt": "chf-200-front", "src": "https://imgur.com/OyHmjdP.jpeg" },
+				{ "alt": "chf-200-back", "src": "https://imgur.com/iRMdGky.jpeg" },
+				{ "alt": "chf-1000-front", "src": "https://imgur.com/scL4kUC.jpeg" },
+				{ "alt": "chf-1000-back", "src": "https://imgur.com/mSsc0NC.jpeg" }
 			]
 		},
 		{
@@ -111,6 +113,23 @@
 			]
 		},
 		{
+			"name": "Aruban Florin",
+			"symbol": "awg",
+			"denominations": ["10", "25", "50", "100", "200"],
+			"imageData": [
+				{ "alt": "awg-10-front", "src": "https://imgur.com/VNhuxIC.jpeg" },
+				{ "alt": "awg-10-back", "src": "https://imgur.com/m2nZkWK.jpeg" },
+				{ "alt": "awg-25-front", "src": "https://imgur.com/46Z8F8t.jpeg" },
+				{ "alt": "awg-25-back", "src": "https://imgur.com/l9otirt.jpeg" },
+				{ "alt": "awg-50-front", "src": "https://imgur.com/R5UOuCl.jpeg" },
+				{ "alt": "awg-50-back", "src": "https://imgur.com/pVgUwIF.jpeg" },
+				{ "alt": "awg-100-front", "src": "https://imgur.com/g7aVjCS.jpeg" },
+				{ "alt": "awg-100-back", "src": "https://imgur.com/zHraW7N.jpeg" },
+				{ "alt": "awg-200-front", "src": "https://imgur.com/R8Vrqa4.jpeg" },
+				{ "alt": "awg-200-back", "src": "https://imgur.com/5cYpRxM.jpeg" }
+			]
+		},
+		{
 			"name": "Australian Dollar",
 			"symbol": "aud",
 			"denominations": ["5", "10", "20", "50", "100"],
@@ -125,25 +144,6 @@
 				{ "alt": "aud-50-back", "src": "https://imgur.com/1g3pakV.jpeg" },
 				{ "alt": "aud-100-front", "src": "https://imgur.com/23HYUzW.jpeg" },
 				{ "alt": "aud-100-back", "src": "https://imgur.com/Eub7PqA.jpeg" }
-			]
-		},
-		{
-			"name": "Swiss Franc",
-			"symbol": "chf",
-			"denominations": ["10", "20", "50", "100", "200", "1000"],
-			"imageData": [
-				{ "alt": "chf-10-front", "src": "https://imgur.com/xHOz1oE.jpeg" },
-				{ "alt": "chf-10-back", "src": "https://imgur.com/9iYmzw2.jpeg" },
-				{ "alt": "chf-20-front", "src": "https://imgur.com/zaJn2dx.jpeg" },
-				{ "alt": "chf-20-back", "src": "https://imgur.com/PV07Ko9.jpeg" },
-				{ "alt": "chf-50-front", "src": "https://imgur.com/E1hxIBz.jpeg" },
-				{ "alt": "chf-50-back", "src": "https://imgur.com/BtKSFVc.jpeg" },
-				{ "alt": "chf-100-front", "src": "https://imgur.com/N5s9anQ.jpeg" },
-				{ "alt": "chf-100-back", "src": "https://imgur.com/RhTylA3.jpeg" },
-				{ "alt": "chf-200-front", "src": "https://imgur.com/OyHmjdP.jpeg" },
-				{ "alt": "chf-200-back", "src": "https://imgur.com/iRMdGky.jpeg" },
-				{ "alt": "chf-1000-front", "src": "https://imgur.com/scL4kUC.jpeg" },
-				{ "alt": "chf-1000-back", "src": "https://imgur.com/mSsc0NC.jpeg" }
 			]
 		},
 		{
