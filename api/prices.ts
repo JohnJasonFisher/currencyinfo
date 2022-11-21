@@ -39,15 +39,15 @@ async function setPriceInRedis(symbol, price) {
 }
 
 async function getPriceFromPolygonApi(symbol: string): Promise<string> {
+	const url = `https://api.polygon.io/v2/aggs/ticker/C:${symbol.toUpperCase()}USD/prev`
+	console.info('GET price from polygon api', { url })
 	try {
-		const polygonResponse = await axios.get(
-			`https://api.polygon.io/v2/aggs/ticker/C:${symbol.toUpperCase()}USD/prev`,
-			{
-				headers: {
-					Authorization: `Bearer ${process.env.POLYGON_API_KEY}`,
-				},
-			}
-		)
+		const polygonResponse = await axios.get(url, {
+			headers: {
+				Authorization: `Bearer ${process.env.POLYGON_API_KEY}`,
+			},
+		})
+		console.info('Result from polygon api', { data: polygonResponse.data })
 		const rawPrice = polygonResponse.data.results[0].c
 		const pricePerOneUsd = 1 / rawPrice
 		return _.round(pricePerOneUsd, 2).toString()
