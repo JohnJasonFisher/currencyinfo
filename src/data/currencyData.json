@@ -81,7 +81,7 @@
 					"owned": true,
 					"front": {
 						"altText": "usd-100-front",
-						"imageSrc": "https://imgur.com/EH2iWaP.jpeg"
+						"imageSrc": "https://imgur.com/y5thBuH.jpeg"
 					},
 					"back": {
 						"altText": "usd-100-back",
@@ -147,11 +147,11 @@
 					"owned": true,
 					"front": {
 						"altText": "cad-100-front",
-						"imageSrc": "https://imgur.com/qNllKDI.jpeg"
+						"imageSrc": "https://imgur.com/Q8Y5vZp.jpeg"
 					},
 					"back": {
 						"altText": "cad-100-back",
-						"imageSrc": "https://imgur.com/Q8Y5vZp.jpeg"
+						"imageSrc": "https://imgur.com/qNllKDI.jpeg"
 					}
 				}
 			]
