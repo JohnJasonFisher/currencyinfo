@@ -6,6 +6,7 @@
 			"banknotes": [
 				{
 					"denomination": "1",
+					"owned": true,
 					"front": {
 						"altText": "usd-1-front",
 						"imageSrc": "https://imgur.com/yon8YJ2.jpeg"
@@ -17,6 +18,7 @@
 				},
 				{
 					"denomination": "2",
+					"owned": true,
 					"front": {
 						"altText": "usd-2-front",
 						"imageSrc": "https://imgur.com/VgCRIsk.jpeg"
@@ -28,6 +30,7 @@
 				},
 				{
 					"denomination": "5",
+					"owned": true,
 					"front": {
 						"altText": "usd-5-front",
 						"imageSrc": "https://imgur.com/Ca50PN6.jpeg"
@@ -39,6 +42,7 @@
 				},
 				{
 					"denomination": "10",
+					"owned": true,
 					"front": {
 						"altText": "usd-10-front",
 						"imageSrc": "https://imgur.com/CUgX2WV.jpeg"
@@ -50,6 +54,7 @@
 				},
 				{
 					"denomination": "20",
+					"owned": true,
 					"front": {
 						"altText": "usd-20-front",
 						"imageSrc": "https://imgur.com/MlHbTIz.jpeg"
@@ -61,6 +66,7 @@
 				},
 				{
 					"denomination": "50",
+					"owned": true,
 					"front": {
 						"altText": "usd-50-front",
 						"imageSrc": "https://imgur.com/ezh5XuJ.jpeg"
@@ -72,6 +78,7 @@
 				},
 				{
 					"denomination": "100",
+					"owned": true,
 					"front": {
 						"altText": "usd-100-front",
 						"imageSrc": "https://imgur.com/EH2iWaP.jpeg"
@@ -89,6 +96,7 @@
 			"banknotes": [
 				{
 					"denomination": "5",
+					"owned": true,
 					"front": {
 						"altText": "cad-5-front",
 						"imageSrc": "https://imgur.com/BIn6cBK.jpeg"
@@ -100,6 +108,7 @@
 				},
 				{
 					"denomination": "10",
+					"owned": true,
 					"front": {
 						"altText": "cad-10-front",
 						"imageSrc": "https://imgur.com/vmdSjFd.jpeg"
@@ -111,6 +120,7 @@
 				},
 				{
 					"denomination": "20",
+					"owned": true,
 					"front": {
 						"altText": "cad-20-front",
 						"imageSrc": "https://imgur.com/klpbRLD.jpeg"
@@ -122,6 +132,7 @@
 				},
 				{
 					"denomination": "50",
+					"owned": false,
 					"front": {
 						"altText": "cad-50-front",
 						"imageSrc": "https://imgur.com/oZc2L3f.jpeg"
@@ -133,6 +144,7 @@
 				},
 				{
 					"denomination": "100",
+					"owned": true,
 					"front": {
 						"altText": "cad-100-front",
 						"imageSrc": "https://imgur.com/qNllKDI.jpeg"
@@ -150,6 +162,7 @@
 			"banknotes": [
 				{
 					"denomination": "20",
+					"owned": false,
 					"front": {
 						"altText": "mxn-20-front",
 						"imageSrc": "https://imgur.com/tzXQ4lC.jpeg"
@@ -161,6 +174,7 @@
 				},
 				{
 					"denomination": "50",
+					"owned": false,
 					"front": {
 						"altText": "mxn-50-front",
 						"imageSrc": "https://imgur.com/VOO7qBe.jpeg"
@@ -172,6 +186,7 @@
 				},
 				{
 					"denomination": "100",
+					"owned": false,
 					"front": {
 						"altText": "mxn-100-front",
 						"imageSrc": "https://imgur.com/ym9fPGA.jpeg"
@@ -183,6 +198,7 @@
 				},
 				{
 					"denomination": "200",
+					"owned": false,
 					"front": {
 						"altText": "mxn-200-front",
 						"imageSrc": "https://imgur.com/NS2fTNg.jpeg"
@@ -194,6 +210,7 @@
 				},
 				{
 					"denomination": "500",
+					"owned": false,
 					"front": {
 						"altText": "mxn-500-front",
 						"imageSrc": "https://imgur.com/3n7jUp0.jpeg"
@@ -211,6 +228,7 @@
 			"banknotes": [
 				{
 					"denomination": "5",
+					"owned": true,
 					"front": {
 						"altText": "eur-5-front",
 						"imageSrc": "https://imgur.com/z2YH562.jpeg"
@@ -222,6 +240,7 @@
 				},
 				{
 					"denomination": "10",
+					"owned": true,
 					"front": {
 						"altText": "eur-10-front",
 						"imageSrc": "https://imgur.com/dLkPBU8.jpeg"
@@ -233,6 +252,7 @@
 				},
 				{
 					"denomination": "20",
+					"owned": true,
 					"front": {
 						"altText": "eur-20-front",
 						"imageSrc": "https://imgur.com/GdC2EZu.jpeg"
@@ -244,6 +264,7 @@
 				},
 				{
 					"denomination": "50",
+					"owned": true,
 					"front": {
 						"altText": "eur-50-front",
 						"imageSrc": "https://imgur.com/KuPKZCn.jpeg"
@@ -255,6 +276,7 @@
 				},
 				{
 					"denomination": "100",
+					"owned": false,
 					"front": {
 						"altText": "eur-100-front",
 						"imageSrc": "https://imgur.com/2ZhgLJs.jpeg"
@@ -266,6 +288,7 @@
 				},
 				{
 					"denomination": "200",
+					"owned": false,
 					"front": {
 						"altText": "eur-200-front",
 						"imageSrc": "https://imgur.com/SueEd12.jpeg"
@@ -283,6 +306,7 @@
 			"banknotes": [
 				{
 					"denomination": "10",
+					"owned": false,
 					"front": {
 						"altText": "chf-10-front",
 						"imageSrc": "https://imgur.com/xHOz1oE.jpeg"
@@ -294,6 +318,7 @@
 				},
 				{
 					"denomination": "20",
+					"owned": false,
 					"front": {
 						"altText": "chf-20-front",
 						"imageSrc": "https://imgur.com/zaJn2dx.jpeg"
@@ -305,6 +330,7 @@
 				},
 				{
 					"denomination": "50",
+					"owned": false,
 					"front": {
 						"altText": "chf-50-front",
 						"imageSrc": "https://imgur.com/E1hxIBz.jpeg"
@@ -316,6 +342,7 @@
 				},
 				{
 					"denomination": "100",
+					"owned": false,
 					"front": {
 						"altText": "chf-100-front",
 						"imageSrc": "https://imgur.com/RhTylA3.jpeg"
@@ -327,6 +354,7 @@
 				},
 				{
 					"denomination": "200",
+					"owned": false,
 					"front": {
 						"altText": "chf-200-front",
 						"imageSrc": "https://imgur.com/OyHmjdP.jpeg"
@@ -338,6 +366,7 @@
 				},
 				{
 					"denomination": "1000",
+					"owned": false,
 					"front": {
 						"altText": "chf-1000-front",
 						"imageSrc": "https://imgur.com/scL4kUC.jpeg"
@@ -355,6 +384,7 @@
 			"banknotes": [
 				{
 					"denomination": "5",
+					"owned": true,
 					"front": {
 						"altText": "gbp-5-front",
 						"imageSrc": "https://imgur.com/wwvw786.jpeg"
@@ -366,6 +396,7 @@
 				},
 				{
 					"denomination": "10",
+					"owned": true,
 					"front": {
 						"altText": "gbp-10-front",
 						"imageSrc": "https://imgur.com/QVDyUYC.jpeg"
@@ -377,6 +408,7 @@
 				},
 				{
 					"denomination": "20",
+					"owned": true,
 					"front": {
 						"altText": "gbp-20-front",
 						"imageSrc": "https://imgur.com/1hEXSl1.jpeg"
@@ -388,6 +420,7 @@
 				},
 				{
 					"denomination": "50",
+					"owned": true,
 					"front": {
 						"altText": "gbp-50-front",
 						"imageSrc": "https://imgur.com/3RxHmFX.jpeg"
@@ -405,6 +438,7 @@
 			"banknotes": [
 				{
 					"denomination": "10",
+					"owned": true,
 					"front": {
 						"altText": "pln-10-front",
 						"imageSrc": "https://imgur.com/IuGrwoM.jpeg"
@@ -416,6 +450,7 @@
 				},
 				{
 					"denomination": "20",
+					"owned": true,
 					"front": {
 						"altText": "pln-20-front",
 						"imageSrc": "https://imgur.com/61BRowd.jpeg"
@@ -427,6 +462,7 @@
 				},
 				{
 					"denomination": "50",
+					"owned": true,
 					"front": {
 						"altText": "pln-50-front",
 						"imageSrc": "https://imgur.com/Jivv9XR.jpeg"
@@ -438,6 +474,7 @@
 				},
 				{
 					"denomination": "100",
+					"owned": false,
 					"front": {
 						"altText": "pln-100-front",
 						"imageSrc": "https://imgur.com/MNQVahH.jpeg"
@@ -449,6 +486,7 @@
 				},
 				{
 					"denomination": "200",
+					"owned": false,
 					"front": {
 						"altText": "pln-200-front",
 						"imageSrc": "https://imgur.com/cKcoza7.jpeg"
@@ -460,6 +498,7 @@
 				},
 				{
 					"denomination": "500",
+					"owned": true,
 					"front": {
 						"altText": "pln-500-front",
 						"imageSrc": "https://imgur.com/bH9dke1.jpeg"
@@ -477,6 +516,7 @@
 			"banknotes": [
 				{
 					"denomination": "10",
+					"owned": true,
 					"front": {
 						"altText": "awg-10-front",
 						"imageSrc": "https://imgur.com/VNhuxIC.jpeg"
@@ -488,6 +528,7 @@
 				},
 				{
 					"denomination": "25",
+					"owned": true,
 					"front": {
 						"altText": "awg-25-front",
 						"imageSrc": "https://imgur.com/46Z8F8t.jpeg"
@@ -499,6 +540,7 @@
 				},
 				{
 					"denomination": "50",
+					"owned": true,
 					"front": {
 						"altText": "awg-50-front",
 						"imageSrc": "https://imgur.com/R5UOuCl.jpeg"
@@ -510,6 +552,7 @@
 				},
 				{
 					"denomination": "100",
+					"owned": true,
 					"front": {
 						"altText": "awg-100-front",
 						"imageSrc": "https://imgur.com/g7aVjCS.jpeg"
@@ -521,6 +564,7 @@
 				},
 				{
 					"denomination": "200",
+					"owned": false,
 					"front": {
 						"altText": "awg-200-front",
 						"imageSrc": "https://imgur.com/R8Vrqa4.jpeg"
@@ -538,6 +582,7 @@
 			"banknotes": [
 				{
 					"denomination": "5",
+					"owned": true,
 					"front": {
 						"altText": "aud-5-front",
 						"imageSrc": "https://imgur.com/YHX6kSt.jpeg"
@@ -549,6 +594,7 @@
 				},
 				{
 					"denomination": "10",
+					"owned": true,
 					"front": {
 						"altText": "aud-10-front",
 						"imageSrc": "https://imgur.com/HDUY1xm.jpeg"
@@ -560,6 +606,7 @@
 				},
 				{
 					"denomination": "20",
+					"owned": true,
 					"front": {
 						"altText": "aud-20-front",
 						"imageSrc": "https://imgur.com/w83fZku.jpeg"
@@ -571,6 +618,7 @@
 				},
 				{
 					"denomination": "50",
+					"owned": true,
 					"front": {
 						"altText": "aud-50-front",
 						"imageSrc": "https://imgur.com/xDqdVEQ.jpeg"
@@ -582,6 +630,7 @@
 				},
 				{
 					"denomination": "100",
+					"owned": false,
 					"front": {
 						"altText": "aud-100-front",
 						"imageSrc": "https://imgur.com/23HYUzW.jpeg"
@@ -599,6 +648,7 @@
 			"banknotes": [
 				{
 					"denomination": "5",
+					"owned": true,
 					"front": {
 						"altText": "nzd-5-front",
 						"imageSrc": "https://imgur.com/YYqi9JT.jpeg"
@@ -610,6 +660,7 @@
 				},
 				{
 					"denomination": "10",
+					"owned": true,
 					"front": {
 						"altText": "nzd-10-front",
 						"imageSrc": "https://imgur.com/pZ7rm1a.jpeg"
@@ -621,6 +672,7 @@
 				},
 				{
 					"denomination": "20",
+					"owned": true,
 					"front": {
 						"altText": "nzd-20-front",
 						"imageSrc": "https://imgur.com/JL7vNgB.jpeg"
@@ -632,6 +684,7 @@
 				},
 				{
 					"denomination": "50",
+					"owned": true,
 					"front": {
 						"altText": "nzd-50-front",
 						"imageSrc": "https://imgur.com/iUxFG36.jpeg"
@@ -643,6 +696,7 @@
 				},
 				{
 					"denomination": "100",
+					"owned": false,
 					"front": {
 						"altText": "nzd-100-front",
 						"imageSrc": "https://imgur.com/9SHBkYC.jpeg"

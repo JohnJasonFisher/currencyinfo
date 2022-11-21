@@ -19,8 +19,11 @@
 {/await}
 
 {#each banknotes as banknote}
-	<img src={banknote.front.imageSrc} alt={banknote.front.altText} />
-	<img src={banknote.back.imageSrc} alt={banknote.back.altText} />
+	<div>
+		<input type="checkbox" disabled bind:checked={banknote.owned} />
+		<img src={banknote.front.imageSrc} alt={banknote.front.altText} />
+		<img src={banknote.back.imageSrc} alt={banknote.back.altText} />
+	</div>
 {/each}
 
 <style>
