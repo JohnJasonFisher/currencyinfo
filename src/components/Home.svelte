@@ -32,7 +32,7 @@
 		<CurrencyInfo
 			name={currency.name}
 			symbol={currency.symbol}
-			imageData={currency.imageData}
+			banknotes={currency.banknotes}
 		/>
 	</div>
 </main>

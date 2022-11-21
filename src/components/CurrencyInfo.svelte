@@ -3,7 +3,7 @@
 
 	export let name = 'United States Dollar'
 	export let symbol = 'usd'
-	export let imageData
+	export let banknotes
 
 	const pricePromise = getPrice(symbol)
 </script>
@@ -18,8 +18,9 @@
 	<p style="color: red">Failed to fetch price data.</p>
 {/await}
 
-{#each imageData as image}
-	<img src={image.src} alt={image.alt} />
+{#each banknotes as banknote}
+	<img src={banknote.front.imageSrc} alt={banknote.front.altText} />
+	<img src={banknote.back.imageSrc} alt={banknote.back.altText} />
 {/each}
 
 <style>

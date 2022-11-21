@@ -3,63 +3,213 @@
 		{
 			"name": "United States Dollar",
 			"symbol": "usd",
-			"denominations": ["1", "2", "5", "10", "20", "50", "100"],
-			"imageData": [
-				{ "alt": "usd-1-front", "src": "https://imgur.com/yon8YJ2.jpeg" },
-				{ "alt": "usd-1-back", "src": "https://imgur.com/OVJIhcc.jpeg" },
-				{ "alt": "usd-2-front", "src": "https://imgur.com/VgCRIsk.jpeg" },
-				{ "alt": "usd-2-back", "src": "https://imgur.com/TyiZH2S.jpeg" },
-				{ "alt": "usd-5-front", "src": "https://imgur.com/Ca50PN6.jpeg" },
-				{ "alt": "usd-5-back", "src": "https://imgur.com/G43dbhU.jpeg" },
-				{ "alt": "usd-10-front", "src": "https://imgur.com/CUgX2WV.jpeg" },
-				{ "alt": "usd-10-back", "src": "https://imgur.com/RKhmmEY.jpeg" },
-				{ "alt": "usd-20-front", "src": "https://imgur.com/MlHbTIz.jpeg" },
-				{ "alt": "usd-20-back", "src": "https://imgur.com/JTteVsM.jpeg" },
-				{ "alt": "usd-50-front", "src": "https://imgur.com/ezh5XuJ.jpeg" },
-				{ "alt": "usd-50-back", "src": "https://imgur.com/EH2iWaP.jpeg" },
-				{ "alt": "usd-100-front", "src": "https://imgur.com/y5thBuH.jpeg" },
-				{ "alt": "usd-100-back", "src": "https://imgur.com/yU0l0qv.jpeg" }
+			"banknotes": [
+				{
+					"denomination": "1",
+					"front": {
+						"altText": "usd-1-front",
+						"imageSrc": "https://imgur.com/yon8YJ2.jpeg"
+					},
+					"back": {
+						"altText": "usd-1-back",
+						"imageSrc": "https://imgur.com/OVJIhcc.jpeg"
+					}
+				},
+				{
+					"denomination": "2",
+					"front": {
+						"altText": "usd-2-front",
+						"imageSrc": "https://imgur.com/VgCRIsk.jpeg"
+					},
+					"back": {
+						"altText": "usd-2-back",
+						"imageSrc": "https://imgur.com/TyiZH2S.jpeg"
+					}
+				},
+				{
+					"denomination": "5",
+					"front": {
+						"altText": "usd-5-front",
+						"imageSrc": "https://imgur.com/Ca50PN6.jpeg"
+					},
+					"back": {
+						"altText": "usd-5-back",
+						"imageSrc": "https://imgur.com/G43dbhU.jpeg"
+					}
+				},
+				{
+					"denomination": "10",
+					"front": {
+						"altText": "usd-10-front",
+						"imageSrc": "https://imgur.com/CUgX2WV.jpeg"
+					},
+					"back": {
+						"altText": "usd-10-back",
+						"imageSrc": "https://imgur.com/RKhmmEY.jpeg"
+					}
+				},
+				{
+					"denomination": "20",
+					"front": {
+						"altText": "usd-20-front",
+						"imageSrc": "https://imgur.com/MlHbTIz.jpeg"
+					},
+					"back": {
+						"altText": "usd-20-back",
+						"imageSrc": "https://imgur.com/JTteVsM.jpeg"
+					}
+				},
+				{
+					"denomination": "50",
+					"front": {
+						"altText": "usd-50-front",
+						"imageSrc": "https://imgur.com/ezh5XuJ.jpeg"
+					},
+					"back": {
+						"altText": "usd-50-back",
+						"imageSrc": "https://imgur.com/EH2iWaP.jpeg"
+					}
+				},
+				{
+					"denomination": "100",
+					"front": {
+						"altText": "usd-100-front",
+						"imageSrc": "https://imgur.com/EH2iWaP.jpeg"
+					},
+					"back": {
+						"altText": "usd-100-back",
+						"imageSrc": "https://imgur.com/yU0l0qv.jpeg"
+					}
+				}
 			]
 		},
 		{
 			"name": "Canadian Dollar",
 			"symbol": "cad",
-			"denominations": ["5", "10", "20", "50", "100"],
-			"imageData": [
-				{ "alt": "cad-5-front", "src": "https://imgur.com/BIn6cBK.jpeg" },
-				{ "alt": "cad-5-back", "src": "https://imgur.com/ozGkjAc.jpeg" },
-				{ "alt": "cad-10-front", "src": "https://imgur.com/vmdSjFd.jpeg" },
-				{ "alt": "cad-10-back", "src": "https://imgur.com/s2GxDhA.jpeg" },
-				{ "alt": "cad-20-front", "src": "https://imgur.com/klpbRLD.jpeg" },
-				{ "alt": "cad-20-back", "src": "https://imgur.com/vwAKHFX.jpeg" },
-				{ "alt": "cad-50-front", "src": "https://imgur.com/oZc2L3f.jpeg" },
-				{ "alt": "cad-50-back", "src": "https://imgur.com/YJXrHU9.jpeg" },
-				{ "alt": "cad-100-front", "src": "https://imgur.com/Q8Y5vZp.jpeg" },
-				{ "alt": "cad-100-back", "src": "https://imgur.com/qNllKDI.jpeg" }
+			"banknotes": [
+				{
+					"denomination": "5",
+					"front": {
+						"altText": "cad-5-front",
+						"imageSrc": "https://imgur.com/BIn6cBK.jpeg"
+					},
+					"back": {
+						"altText": "cad-5-back",
+						"imageSrc": "https://imgur.com/ozGkjAc.jpeg"
+					}
+				},
+				{
+					"denomination": "10",
+					"front": {
+						"altText": "cad-10-front",
+						"imageSrc": "https://imgur.com/vmdSjFd.jpeg"
+					},
+					"back": {
+						"altText": "cad-10-back",
+						"imageSrc": "https://imgur.com/s2GxDhA.jpeg"
+					}
+				},
+				{
+					"denomination": "20",
+					"front": {
+						"altText": "cad-20-front",
+						"imageSrc": "https://imgur.com/klpbRLD.jpeg"
+					},
+					"back": {
+						"altText": "cad-20-back",
+						"imageSrc": "https://imgur.com/vwAKHFX.jpeg"
+					}
+				},
+				{
+					"denomination": "50",
+					"front": {
+						"altText": "cad-50-front",
+						"imageSrc": "https://imgur.com/oZc2L3f.jpeg"
+					},
+					"back": {
+						"altText": "cad-50-back",
+						"imageSrc": "https://imgur.com/YJXrHU9.jpeg"
+					}
+				},
+				{
+					"denomination": "100",
+					"front": {
+						"altText": "cad-100-front",
+						"imageSrc": "https://imgur.com/qNllKDI.jpeg"
+					},
+					"back": {
+						"altText": "cad-100-back",
+						"imageSrc": "https://imgur.com/Q8Y5vZp.jpeg"
+					}
+				}
 			]
 		},
 		{
 			"name": "Mexican Peso",
 			"symbol": "mxn",
-			"denominations": ["20", "50", "100", "200", "500"],
-			"imageData": [
-				{ "alt": "mxn-20-front", "src": "https://imgur.com/tzXQ4lC.jpeg" },
-				{ "alt": "mxn-20-back", "src": "https://imgur.com/0PtTjkm.jpeg" },
-				{ "alt": "mxn-50-front", "src": "https://imgur.com/VOO7qBe.jpeg" },
-				{ "alt": "mxn-50-back", "src": "https://imgur.com/d6bl6YC.jpeg" },
-				{ "alt": "mxn-100-front", "src": "https://imgur.com/ym9fPGA.jpeg" },
-				{ "alt": "mxn-100-back", "src": "https://imgur.com/wRtthB5.jpeg" },
-				{ "alt": "mxn-200-front", "src": "https://imgur.com/NS2fTNg.jpeg" },
-				{ "alt": "mxn-200-back", "src": "https://imgur.com/fZzVzYm.jpeg" },
-				{ "alt": "mxn-500-front", "src": "https://imgur.com/3n7jUp0.jpeg" },
-				{ "alt": "mxn-500-back", "src": "https://imgur.com/1nAi7no.jpeg" }
+			"banknotes": [
+				{
+					"denomination": "20",
+					"front": {
+						"altText": "mxn-20-front",
+						"imageSrc": "https://imgur.com/tzXQ4lC.jpeg"
+					},
+					"back": {
+						"altText": "mxn-20-back",
+						"imageSrc": "https://imgur.com/0PtTjkm.jpeg"
+					}
+				},
+				{
+					"denomination": "50",
+					"front": {
+						"altText": "mxn-50-front",
+						"imageSrc": "https://imgur.com/VOO7qBe.jpeg"
+					},
+					"back": {
+						"altText": "mxn-50-back",
+						"imageSrc": "https://imgur.com/d6bl6YC.jpeg"
+					}
+				},
+				{
+					"denomination": "100",
+					"front": {
+						"altText": "mxn-100-front",
+						"imageSrc": "https://imgur.com/ym9fPGA.jpeg"
+					},
+					"back": {
+						"altText": "mxn-100-back",
+						"imageSrc": "https://imgur.com/wRtthB5.jpeg"
+					}
+				},
+				{
+					"denomination": "200",
+					"front": {
+						"altText": "mxn-200-front",
+						"imageSrc": "https://imgur.com/NS2fTNg.jpeg"
+					},
+					"back": {
+						"altText": "mxn-200-back",
+						"imageSrc": "https://imgur.com/fZzVzYm.jpeg"
+					}
+				},
+				{
+					"denomination": "500",
+					"front": {
+						"altText": "mxn-500-front",
+						"imageSrc": "https://imgur.com/3n7jUp0.jpeg"
+					},
+					"back": {
+						"altText": "mxn-500-back",
+						"imageSrc": "https://imgur.com/1nAi7no.jpeg"
+					}
+				}
 			]
 		},
 		{
 			"name": "European Euro",
 			"symbol": "eur",
 			"denominations": ["10", "20", "50", "100", "200"],
-			"imageData": [
+			"banknotes": [
 				{ "alt": "eur-5-front", "src": "https://imgur.com/z2YH562.jpeg" },
 				{ "alt": "eur-5-back", "src": "https://imgur.com/EX83pGN.jpeg" },
 				{ "alt": "eur-10-front", "src": "https://imgur.com/dLkPBU8.jpeg" },
@@ -78,7 +228,7 @@
 			"name": "Swiss Franc",
 			"symbol": "chf",
 			"denominations": ["10", "20", "50", "100", "200", "1000"],
-			"imageData": [
+			"banknotes": [
 				{ "alt": "chf-10-front", "src": "https://imgur.com/xHOz1oE.jpeg" },
 				{ "alt": "chf-10-back", "src": "https://imgur.com/9iYmzw2.jpeg" },
 				{ "alt": "chf-20-front", "src": "https://imgur.com/zaJn2dx.jpeg" },
@@ -97,7 +247,7 @@
 			"name": "Great British Pound",
 			"symbol": "gbp",
 			"denominations": ["5", "10", "20", "50"],
-			"imageData": [
+			"banknotes": [
 				{ "alt": "gbp-5-front", "src": "https://imgur.com/wwvw786.jpeg" },
 				{ "alt": "gbp-5-back", "src": "https://imgur.com/14I3ZUE.jpeg" },
 				{ "alt": "gbp-10-front", "src": "https://imgur.com/QVDyUYC.jpeg" },
@@ -112,7 +262,7 @@
 			"name": "Polish Zloty",
 			"symbol": "pln",
 			"denominations": ["10", "20", "50", "100", "200", "500"],
-			"imageData": [
+			"banknotes": [
 				{ "alt": "pln-10-front", "src": "https://imgur.com/IuGrwoM.jpeg" },
 				{ "alt": "pln-10-back", "src": "https://imgur.com/3gdk3nr.jpeg" },
 				{ "alt": "pln-20-front", "src": "https://imgur.com/61BRowd.jpeg" },
@@ -131,7 +281,7 @@
 			"name": "Aruban Florin",
 			"symbol": "awg",
 			"denominations": ["10", "25", "50", "100", "200"],
-			"imageData": [
+			"banknotes": [
 				{ "alt": "awg-10-front", "src": "https://imgur.com/VNhuxIC.jpeg" },
 				{ "alt": "awg-10-back", "src": "https://imgur.com/m2nZkWK.jpeg" },
 				{ "alt": "awg-25-front", "src": "https://imgur.com/46Z8F8t.jpeg" },
@@ -148,7 +298,7 @@
 			"name": "Australian Dollar",
 			"symbol": "aud",
 			"denominations": ["5", "10", "20", "50", "100"],
-			"imageData": [
+			"banknotes": [
 				{ "alt": "aud-5-front", "src": "https://imgur.com/YHX6kSt.jpeg" },
 				{ "alt": "aud-5-back", "src": "https://imgur.com/ml9Y9z1.jpeg" },
 				{ "alt": "aud-10-front", "src": "https://imgur.com/HDUY1xm.jpeg" },
@@ -165,7 +315,7 @@
 			"name": "New Zealand dollar",
 			"symbol": "nzd",
 			"denominations": ["5", "10", "20", "50", "100"],
-			"imageData": [
+			"banknotes": [
 				{ "alt": "nzd-5-front", "src": "https://imgur.com/YYqi9JT.jpeg" },
 				{ "alt": "nzd-5-back", "src": "https://imgur.com/QlBQFb7.jpeg" },
 				{ "alt": "nzd-10-front", "src": "https://imgur.com/pZ7rm1a.jpeg" },
