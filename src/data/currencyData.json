@@ -208,124 +208,450 @@
 		{
 			"name": "European Euro",
 			"symbol": "eur",
-			"denominations": ["10", "20", "50", "100", "200"],
 			"banknotes": [
-				{ "alt": "eur-5-front", "src": "https://imgur.com/z2YH562.jpeg" },
-				{ "alt": "eur-5-back", "src": "https://imgur.com/EX83pGN.jpeg" },
-				{ "alt": "eur-10-front", "src": "https://imgur.com/dLkPBU8.jpeg" },
-				{ "alt": "eur-10-back", "src": "https://imgur.com/9a7FNCc.jpeg" },
-				{ "alt": "eur-20-front", "src": "https://imgur.com/GdC2EZu.jpeg" },
-				{ "alt": "eur-20-back", "src": "https://imgur.com/IHDJ7Ao.jpeg" },
-				{ "alt": "eur-50-front", "src": "https://imgur.com/KuPKZCn.jpeg" },
-				{ "alt": "eur-50-back", "src": "https://imgur.com/JYvVW48.jpeg" },
-				{ "alt": "eur-100-front", "src": "https://imgur.com/2ZhgLJs.jpeg" },
-				{ "alt": "eur-100-bac", "src": "https://imgur.com/pmDStRK.jpeg" },
-				{ "alt": "eur-200-front", "src": "https://imgur.com/SueEd12.jpeg" },
-				{ "alt": "eur-200-back", "src": "https://imgur.com/v9KXvjV.jpeg" }
+				{
+					"denomination": "5",
+					"front": {
+						"altText": "eur-5-front",
+						"imageSrc": "https://imgur.com/z2YH562.jpeg"
+					},
+					"back": {
+						"altText": "eur-5-back",
+						"imageSrc": "https://imgur.com/EX83pGN.jpeg"
+					}
+				},
+				{
+					"denomination": "10",
+					"front": {
+						"altText": "eur-10-front",
+						"imageSrc": "https://imgur.com/dLkPBU8.jpeg"
+					},
+					"back": {
+						"altText": "eur-10-back",
+						"imageSrc": "https://imgur.com/9a7FNCc.jpeg"
+					}
+				},
+				{
+					"denomination": "20",
+					"front": {
+						"altText": "eur-20-front",
+						"imageSrc": "https://imgur.com/GdC2EZu.jpeg"
+					},
+					"back": {
+						"altText": "eur-20-back",
+						"imageSrc": "https://imgur.com/IHDJ7Ao.jpeg"
+					}
+				},
+				{
+					"denomination": "50",
+					"front": {
+						"altText": "eur-50-front",
+						"imageSrc": "https://imgur.com/KuPKZCn.jpeg"
+					},
+					"back": {
+						"altText": "eur-50-back",
+						"imageSrc": "https://imgur.com/JYvVW48.jpeg"
+					}
+				},
+				{
+					"denomination": "100",
+					"front": {
+						"altText": "eur-100-front",
+						"imageSrc": "https://imgur.com/2ZhgLJs.jpeg"
+					},
+					"back": {
+						"altText": "eur-100-back",
+						"imageSrc": "https://imgur.com/pmDStRK.jpeg"
+					}
+				},
+				{
+					"denomination": "200",
+					"front": {
+						"altText": "eur-200-front",
+						"imageSrc": "https://imgur.com/SueEd12.jpeg"
+					},
+					"back": {
+						"altText": "eur-200-back",
+						"imageSrc": "https://imgur.com/v9KXvjV.jpeg"
+					}
+				}
 			]
 		},
 		{
 			"name": "Swiss Franc",
 			"symbol": "chf",
-			"denominations": ["10", "20", "50", "100", "200", "1000"],
 			"banknotes": [
-				{ "alt": "chf-10-front", "src": "https://imgur.com/xHOz1oE.jpeg" },
-				{ "alt": "chf-10-back", "src": "https://imgur.com/9iYmzw2.jpeg" },
-				{ "alt": "chf-20-front", "src": "https://imgur.com/zaJn2dx.jpeg" },
-				{ "alt": "chf-20-back", "src": "https://imgur.com/PV07Ko9.jpeg" },
-				{ "alt": "chf-50-front", "src": "https://imgur.com/E1hxIBz.jpeg" },
-				{ "alt": "chf-50-back", "src": "https://imgur.com/BtKSFVc.jpeg" },
-				{ "alt": "chf-100-front", "src": "https://imgur.com/RhTylA3.jpeg" },
-				{ "alt": "chf-100-back", "src": "https://imgur.com/N5s9anQ.jpeg" },
-				{ "alt": "chf-200-front", "src": "https://imgur.com/OyHmjdP.jpeg" },
-				{ "alt": "chf-200-back", "src": "https://imgur.com/iRMdGky.jpeg" },
-				{ "alt": "chf-1000-front", "src": "https://imgur.com/scL4kUC.jpeg" },
-				{ "alt": "chf-1000-back", "src": "https://imgur.com/mSsc0NC.jpeg" }
+				{
+					"denomination": "10",
+					"front": {
+						"altText": "chf-10-front",
+						"imageSrc": "https://imgur.com/xHOz1oE.jpeg"
+					},
+					"back": {
+						"altText": "chf-10-back",
+						"imageSrc": "https://imgur.com/9iYmzw2.jpeg"
+					}
+				},
+				{
+					"denomination": "20",
+					"front": {
+						"altText": "chf-20-front",
+						"imageSrc": "https://imgur.com/zaJn2dx.jpeg"
+					},
+					"back": {
+						"altText": "chf-20-back",
+						"imageSrc": "https://imgur.com/PV07Ko9.jpeg"
+					}
+				},
+				{
+					"denomination": "50",
+					"front": {
+						"altText": "chf-50-front",
+						"imageSrc": "https://imgur.com/E1hxIBz.jpeg"
+					},
+					"back": {
+						"altText": "chf-50-back",
+						"imageSrc": "https://imgur.com/BtKSFVc.jpeg"
+					}
+				},
+				{
+					"denomination": "100",
+					"front": {
+						"altText": "chf-100-front",
+						"imageSrc": "https://imgur.com/RhTylA3.jpeg"
+					},
+					"back": {
+						"altText": "chf-100-back",
+						"imageSrc": "https://imgur.com/N5s9anQ.jpeg"
+					}
+				},
+				{
+					"denomination": "200",
+					"front": {
+						"altText": "chf-200-front",
+						"imageSrc": "https://imgur.com/OyHmjdP.jpeg"
+					},
+					"back": {
+						"altText": "chf-200-back",
+						"imageSrc": "https://imgur.com/iRMdGky.jpeg"
+					}
+				},
+				{
+					"denomination": "1000",
+					"front": {
+						"altText": "chf-1000-front",
+						"imageSrc": "https://imgur.com/scL4kUC.jpeg"
+					},
+					"back": {
+						"altText": "chf-1000-back",
+						"imageSrc": "https://imgur.com/mSsc0NC.jpeg"
+					}
+				}
 			]
 		},
 		{
 			"name": "Great British Pound",
 			"symbol": "gbp",
-			"denominations": ["5", "10", "20", "50"],
 			"banknotes": [
-				{ "alt": "gbp-5-front", "src": "https://imgur.com/wwvw786.jpeg" },
-				{ "alt": "gbp-5-back", "src": "https://imgur.com/14I3ZUE.jpeg" },
-				{ "alt": "gbp-10-front", "src": "https://imgur.com/QVDyUYC.jpeg" },
-				{ "alt": "gbp-10-back", "src": "https://imgur.com/AmY6X6R.jpeg" },
-				{ "alt": "gbp-20-front", "src": "https://imgur.com/1hEXSl1.jpeg" },
-				{ "alt": "gbp-20-back", "src": "https://imgur.com/FCQRd1B.jpeg" },
-				{ "alt": "gbp-50-front", "src": "https://imgur.com/3RxHmFX.jpeg" },
-				{ "alt": "gbp-50-back", "src": "https://imgur.com/taAF9qQ.jpeg" }
+				{
+					"denomination": "5",
+					"front": {
+						"altText": "gbp-5-front",
+						"imageSrc": "https://imgur.com/wwvw786.jpeg"
+					},
+					"back": {
+						"altText": "gbp-5-back",
+						"imageSrc": "https://imgur.com/14I3ZUE.jpeg"
+					}
+				},
+				{
+					"denomination": "10",
+					"front": {
+						"altText": "gbp-10-front",
+						"imageSrc": "https://imgur.com/QVDyUYC.jpeg"
+					},
+					"back": {
+						"altText": "gbp-10-back",
+						"imageSrc": "https://imgur.com/AmY6X6R.jpeg"
+					}
+				},
+				{
+					"denomination": "20",
+					"front": {
+						"altText": "gbp-20-front",
+						"imageSrc": "https://imgur.com/1hEXSl1.jpeg"
+					},
+					"back": {
+						"altText": "gbp-20-back",
+						"imageSrc": "https://imgur.com/FCQRd1B.jpeg"
+					}
+				},
+				{
+					"denomination": "50",
+					"front": {
+						"altText": "gbp-50-front",
+						"imageSrc": "https://imgur.com/3RxHmFX.jpeg"
+					},
+					"back": {
+						"altText": "gbp-50-back",
+						"imageSrc": "https://imgur.com/taAF9qQ.jpeg"
+					}
+				}
 			]
 		},
 		{
 			"name": "Polish Zloty",
 			"symbol": "pln",
-			"denominations": ["10", "20", "50", "100", "200", "500"],
 			"banknotes": [
-				{ "alt": "pln-10-front", "src": "https://imgur.com/IuGrwoM.jpeg" },
-				{ "alt": "pln-10-back", "src": "https://imgur.com/3gdk3nr.jpeg" },
-				{ "alt": "pln-20-front", "src": "https://imgur.com/61BRowd.jpeg" },
-				{ "alt": "pln-20-back", "src": "https://imgur.com/iCxVfMC.jpeg" },
-				{ "alt": "pln-50-front", "src": "https://imgur.com/Jivv9XR.jpeg" },
-				{ "alt": "pln-50-back", "src": "https://imgur.com/MkUXTXE.jpeg" },
-				{ "alt": "pln-100-front", "src": "https://imgur.com/MNQVahH.jpeg" },
-				{ "alt": "pln-100-back", "src": "https://imgur.com/I0sqsbp.jpeg" },
-				{ "alt": "pln-200-front", "src": "https://imgur.com/cKcoza7.jpeg" },
-				{ "alt": "pln-200-back", "src": "https://imgur.com/1oQLLfj.jpeg" },
-				{ "alt": "pln-500-front", "src": "https://imgur.com/bH9dke1.jpeg" },
-				{ "alt": "pln-500-back", "src": "https://imgur.com/ca9NuKH.jpeg" }
+				{
+					"denomination": "10",
+					"front": {
+						"altText": "pln-10-front",
+						"imageSrc": "https://imgur.com/IuGrwoM.jpeg"
+					},
+					"back": {
+						"altText": "pln-10-back",
+						"imageSrc": "https://imgur.com/3gdk3nr.jpeg"
+					}
+				},
+				{
+					"denomination": "20",
+					"front": {
+						"altText": "pln-20-front",
+						"imageSrc": "https://imgur.com/61BRowd.jpeg"
+					},
+					"back": {
+						"altText": "pln-20-back",
+						"imageSrc": "https://imgur.com/iCxVfMC.jpeg"
+					}
+				},
+				{
+					"denomination": "50",
+					"front": {
+						"altText": "pln-50-front",
+						"imageSrc": "https://imgur.com/Jivv9XR.jpeg"
+					},
+					"back": {
+						"altText": "pln-50-back",
+						"imageSrc": "https://imgur.com/MkUXTXE.jpeg"
+					}
+				},
+				{
+					"denomination": "100",
+					"front": {
+						"altText": "pln-100-front",
+						"imageSrc": "https://imgur.com/MNQVahH.jpeg"
+					},
+					"back": {
+						"altText": "pln-100-back",
+						"imageSrc": "https://imgur.com/I0sqsbp.jpeg"
+					}
+				},
+				{
+					"denomination": "200",
+					"front": {
+						"altText": "pln-200-front",
+						"imageSrc": "https://imgur.com/cKcoza7.jpeg"
+					},
+					"back": {
+						"altText": "pln-200-back",
+						"imageSrc": "https://imgur.com/1oQLLfj.jpeg"
+					}
+				},
+				{
+					"denomination": "500",
+					"front": {
+						"altText": "pln-500-front",
+						"imageSrc": "https://imgur.com/bH9dke1.jpeg"
+					},
+					"back": {
+						"altText": "pln-500-back",
+						"imageSrc": "https://imgur.com/ca9NuKH.jpeg"
+					}
+				}
 			]
 		},
 		{
 			"name": "Aruban Florin",
 			"symbol": "awg",
-			"denominations": ["10", "25", "50", "100", "200"],
 			"banknotes": [
-				{ "alt": "awg-10-front", "src": "https://imgur.com/VNhuxIC.jpeg" },
-				{ "alt": "awg-10-back", "src": "https://imgur.com/m2nZkWK.jpeg" },
-				{ "alt": "awg-25-front", "src": "https://imgur.com/46Z8F8t.jpeg" },
-				{ "alt": "awg-25-back", "src": "https://imgur.com/l9otirt.jpeg" },
-				{ "alt": "awg-50-front", "src": "https://imgur.com/R5UOuCl.jpeg" },
-				{ "alt": "awg-50-back", "src": "https://imgur.com/pVgUwIF.jpeg" },
-				{ "alt": "awg-100-front", "src": "https://imgur.com/g7aVjCS.jpeg" },
-				{ "alt": "awg-100-back", "src": "https://imgur.com/zHraW7N.jpeg" },
-				{ "alt": "awg-200-front", "src": "https://imgur.com/R8Vrqa4.jpeg" },
-				{ "alt": "awg-200-back", "src": "https://imgur.com/5cYpRxM.jpeg" }
+				{
+					"denomination": "10",
+					"front": {
+						"altText": "awg-10-front",
+						"imageSrc": "https://imgur.com/VNhuxIC.jpeg"
+					},
+					"back": {
+						"altText": "awg-10-back",
+						"imageSrc": "https://imgur.com/m2nZkWK.jpeg"
+					}
+				},
+				{
+					"denomination": "25",
+					"front": {
+						"altText": "awg-25-front",
+						"imageSrc": "https://imgur.com/46Z8F8t.jpeg"
+					},
+					"back": {
+						"altText": "awg-25-back",
+						"imageSrc": "https://imgur.com/l9otirt.jpeg"
+					}
+				},
+				{
+					"denomination": "50",
+					"front": {
+						"altText": "awg-50-front",
+						"imageSrc": "https://imgur.com/R5UOuCl.jpeg"
+					},
+					"back": {
+						"altText": "awg-50-back",
+						"imageSrc": "https://imgur.com/pVgUwIF.jpeg"
+					}
+				},
+				{
+					"denomination": "100",
+					"front": {
+						"altText": "awg-100-front",
+						"imageSrc": "https://imgur.com/g7aVjCS.jpeg"
+					},
+					"back": {
+						"altText": "awg-100-back",
+						"imageSrc": "https://imgur.com/zHraW7N.jpeg"
+					}
+				},
+				{
+					"denomination": "200",
+					"front": {
+						"altText": "awg-200-front",
+						"imageSrc": "https://imgur.com/R8Vrqa4.jpeg"
+					},
+					"back": {
+						"altText": "awg-200-back",
+						"imageSrc": "https://imgur.com/5cYpRxM.jpeg"
+					}
+				}
 			]
 		},
 		{
 			"name": "Australian Dollar",
 			"symbol": "aud",
-			"denominations": ["5", "10", "20", "50", "100"],
 			"banknotes": [
-				{ "alt": "aud-5-front", "src": "https://imgur.com/YHX6kSt.jpeg" },
-				{ "alt": "aud-5-back", "src": "https://imgur.com/ml9Y9z1.jpeg" },
-				{ "alt": "aud-10-front", "src": "https://imgur.com/HDUY1xm.jpeg" },
-				{ "alt": "aud-10-back", "src": "https://imgur.com/EItMa2k.jpeg" },
-				{ "alt": "aud-20-front", "src": "https://imgur.com/w83fZku.jpeg" },
-				{ "alt": "aud-20-back", "src": "https://imgur.com/aIEqFJX.jpeg" },
-				{ "alt": "aud-50-front", "src": "https://imgur.com/xDqdVEQ.jpeg" },
-				{ "alt": "aud-50-back", "src": "https://imgur.com/1g3pakV.jpeg" },
-				{ "alt": "aud-100-front", "src": "https://imgur.com/23HYUzW.jpeg" },
-				{ "alt": "aud-100-back", "src": "https://imgur.com/Eub7PqA.jpeg" }
+				{
+					"denomination": "5",
+					"front": {
+						"altText": "aud-5-front",
+						"imageSrc": "https://imgur.com/YHX6kSt.jpeg"
+					},
+					"back": {
+						"altText": "aud-5-back",
+						"imageSrc": "https://imgur.com/ml9Y9z1.jpeg"
+					}
+				},
+				{
+					"denomination": "10",
+					"front": {
+						"altText": "aud-10-front",
+						"imageSrc": "https://imgur.com/HDUY1xm.jpeg"
+					},
+					"back": {
+						"altText": "aud-10-back",
+						"imageSrc": "https://imgur.com/EItMa2k.jpeg"
+					}
+				},
+				{
+					"denomination": "20",
+					"front": {
+						"altText": "aud-20-front",
+						"imageSrc": "https://imgur.com/w83fZku.jpeg"
+					},
+					"back": {
+						"altText": "aud-20-back",
+						"imageSrc": "https://imgur.com/aIEqFJX.jpeg"
+					}
+				},
+				{
+					"denomination": "50",
+					"front": {
+						"altText": "aud-50-front",
+						"imageSrc": "https://imgur.com/xDqdVEQ.jpeg"
+					},
+					"back": {
+						"altText": "aud-50-back",
+						"imageSrc": "https://imgur.com/1g3pakV.jpeg"
+					}
+				},
+				{
+					"denomination": "100",
+					"front": {
+						"altText": "aud-100-front",
+						"imageSrc": "https://imgur.com/23HYUzW.jpeg"
+					},
+					"back": {
+						"altText": "aud-100-back",
+						"imageSrc": "https://imgur.com/Eub7PqA.jpeg"
+					}
+				}
 			]
 		},
 		{
 			"name": "New Zealand dollar",
 			"symbol": "nzd",
-			"denominations": ["5", "10", "20", "50", "100"],
 			"banknotes": [
-				{ "alt": "nzd-5-front", "src": "https://imgur.com/YYqi9JT.jpeg" },
-				{ "alt": "nzd-5-back", "src": "https://imgur.com/QlBQFb7.jpeg" },
-				{ "alt": "nzd-10-front", "src": "https://imgur.com/pZ7rm1a.jpeg" },
-				{ "alt": "nzd-10-back", "src": "https://imgur.com/XzAx1Ka.jpeg" },
-				{ "alt": "nzd-20-front", "src": "https://imgur.com/JL7vNgB.jpeg" },
-				{ "alt": "nzd-20-back", "src": "https://imgur.com/0ZVeHtW.jpeg" },
-				{ "alt": "nzd-50-front", "src": "https://imgur.com/iUxFG36.jpeg" },
-				{ "alt": "nzd-50-back", "src": "https://imgur.com/2UqxQ3U.jpeg" },
-				{ "alt": "nzd-100-front", "src": "https://imgur.com/9SHBkYC.jpeg" },
-				{ "alt": "nzd-100-back", "src": "https://imgur.com/LyhZu67.jpeg" }
+				{
+					"denomination": "5",
+					"front": {
+						"altText": "nzd-5-front",
+						"imageSrc": "https://imgur.com/YYqi9JT.jpeg"
+					},
+					"back": {
+						"altText": "nzd-5-back",
+						"imageSrc": "https://imgur.com/QlBQFb7.jpeg"
+					}
+				},
+				{
+					"denomination": "10",
+					"front": {
+						"altText": "nzd-10-front",
+						"imageSrc": "https://imgur.com/pZ7rm1a.jpeg"
+					},
+					"back": {
+						"altText": "nzd-10-back",
+						"imageSrc": "https://imgur.com/XzAx1Ka.jpeg"
+					}
+				},
+				{
+					"denomination": "20",
+					"front": {
+						"altText": "nzd-20-front",
+						"imageSrc": "https://imgur.com/JL7vNgB.jpeg"
+					},
+					"back": {
+						"altText": "nzd-20-back",
+						"imageSrc": "https://imgur.com/0ZVeHtW.jpeg"
+					}
+				},
+				{
+					"denomination": "50",
+					"front": {
+						"altText": "nzd-50-front",
+						"imageSrc": "https://imgur.com/iUxFG36.jpeg"
+					},
+					"back": {
+						"altText": "nzd-50-back",
+						"imageSrc": "https://imgur.com/2UqxQ3U.jpeg"
+					}
+				},
+				{
+					"denomination": "100",
+					"front": {
+						"altText": "nzd-100-front",
+						"imageSrc": "https://imgur.com/9SHBkYC.jpeg"
+					},
+					"back": {
+						"altText": "nzd-100-back",
+						"imageSrc": "https://imgur.com/LyhZu67.jpeg"
+					}
+				}
 			]
 		}
 	]
