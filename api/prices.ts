@@ -5,6 +5,7 @@ import Redis from 'ioredis'
 const REDIS_CONNECTION_STRING =
 	process.env.REDIS_CONNECTION_STRING || 'no connection string'
 const redis = new Redis(REDIS_CONNECTION_STRING)
+const PRICES_HASH_KEY = 'prices'
 
 export default async function handler(request, response) {
 	const symbol: string = request.query.symbol
@@ -22,7 +23,7 @@ export default async function handler(request, response) {
 
 async function getPriceFromRedis(symbol) {
 	try {
-		return redis.get(`${symbol}Price`)
+		return redis.hget(PRICES_HASH_KEY, symbol)
 	} catch (error) {
 		console.log('error from getPriceFromRedis', error.message)
 		throw error
@@ -31,7 +32,7 @@ async function getPriceFromRedis(symbol) {
 
 async function setPriceInRedis(symbol, price) {
 	try {
-		return redis.set(`${symbol}Price`, price)
+		return redis.hset(PRICES_HASH_KEY, symbol, price)
 	} catch (error) {
 		console.log('error from setPriceInRedis', error.message)
 		throw error
