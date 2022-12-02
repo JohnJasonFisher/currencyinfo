@@ -6,7 +6,7 @@
 
 	export let url = ''
 	const defaultCurrency = CurrencyData.currencies.filter(
-		(currency) => currency.symbol === 'usd'
+		(currency) => currency.symbol === 'USD'
 	)[0]
 </script>
 

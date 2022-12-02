@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 export const getPrice = async (symbol) => {
-	if (symbol === 'usd') return 1
+	if (symbol === 'USD') return 1
 	return fetchPrice(symbol)
 }
 

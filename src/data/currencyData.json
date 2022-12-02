@@ -2,17 +2,17 @@
 	"currencies": [
 		{
 			"name": "United States Dollar",
-			"symbol": "usd",
+			"symbol": "USD",
 			"banknotes": [
 				{
 					"denomination": "1",
 					"owned": true,
 					"front": {
-						"altText": "usd-1-front",
+						"altText": "USD-1-front",
 						"imageSrc": "https://imgur.com/yon8YJ2.jpeg"
 					},
 					"back": {
-						"altText": "usd-1-back",
+						"altText": "USD-1-back",
 						"imageSrc": "https://imgur.com/OVJIhcc.jpeg"
 					}
 				},
@@ -20,11 +20,11 @@
 					"denomination": "2",
 					"owned": true,
 					"front": {
-						"altText": "usd-2-front",
+						"altText": "USD-2-front",
 						"imageSrc": "https://imgur.com/VgCRIsk.jpeg"
 					},
 					"back": {
-						"altText": "usd-2-back",
+						"altText": "USD-2-back",
 						"imageSrc": "https://imgur.com/TyiZH2S.jpeg"
 					}
 				},
@@ -32,11 +32,11 @@
 					"denomination": "5",
 					"owned": true,
 					"front": {
-						"altText": "usd-5-front",
+						"altText": "USD-5-front",
 						"imageSrc": "https://imgur.com/Ca50PN6.jpeg"
 					},
 					"back": {
-						"altText": "usd-5-back",
+						"altText": "USD-5-back",
 						"imageSrc": "https://imgur.com/G43dbhU.jpeg"
 					}
 				},
@@ -44,11 +44,11 @@
 					"denomination": "10",
 					"owned": true,
 					"front": {
-						"altText": "usd-10-front",
+						"altText": "USD-10-front",
 						"imageSrc": "https://imgur.com/CUgX2WV.jpeg"
 					},
 					"back": {
-						"altText": "usd-10-back",
+						"altText": "USD-10-back",
 						"imageSrc": "https://imgur.com/RKhmmEY.jpeg"
 					}
 				},
@@ -56,11 +56,11 @@
 					"denomination": "20",
 					"owned": true,
 					"front": {
-						"altText": "usd-20-front",
+						"altText": "USD-20-front",
 						"imageSrc": "https://imgur.com/MlHbTIz.jpeg"
 					},
 					"back": {
-						"altText": "usd-20-back",
+						"altText": "USD-20-back",
 						"imageSrc": "https://imgur.com/JTteVsM.jpeg"
 					}
 				},
@@ -68,11 +68,11 @@
 					"denomination": "50",
 					"owned": true,
 					"front": {
-						"altText": "usd-50-front",
+						"altText": "USD-50-front",
 						"imageSrc": "https://imgur.com/ezh5XuJ.jpeg"
 					},
 					"back": {
-						"altText": "usd-50-back",
+						"altText": "USD-50-back",
 						"imageSrc": "https://imgur.com/EH2iWaP.jpeg"
 					}
 				},
@@ -80,11 +80,11 @@
 					"denomination": "100",
 					"owned": true,
 					"front": {
-						"altText": "usd-100-front",
+						"altText": "USD-100-front",
 						"imageSrc": "https://imgur.com/y5thBuH.jpeg"
 					},
 					"back": {
-						"altText": "usd-100-back",
+						"altText": "USD-100-back",
 						"imageSrc": "https://imgur.com/yU0l0qv.jpeg"
 					}
 				}
@@ -92,17 +92,17 @@
 		},
 		{
 			"name": "Canadian Dollar",
-			"symbol": "cad",
+			"symbol": "CAD",
 			"banknotes": [
 				{
 					"denomination": "5",
 					"owned": true,
 					"front": {
-						"altText": "cad-5-front",
+						"altText": "CAD-5-front",
 						"imageSrc": "https://imgur.com/BIn6cBK.jpeg"
 					},
 					"back": {
-						"altText": "cad-5-back",
+						"altText": "CAD-5-back",
 						"imageSrc": "https://imgur.com/ozGkjAc.jpeg"
 					}
 				},
@@ -110,11 +110,11 @@
 					"denomination": "10",
 					"owned": true,
 					"front": {
-						"altText": "cad-10-front",
+						"altText": "CAD-10-front",
 						"imageSrc": "https://imgur.com/vmdSjFd.jpeg"
 					},
 					"back": {
-						"altText": "cad-10-back",
+						"altText": "CAD-10-back",
 						"imageSrc": "https://imgur.com/s2GxDhA.jpeg"
 					}
 				},
@@ -122,11 +122,11 @@
 					"denomination": "20",
 					"owned": true,
 					"front": {
-						"altText": "cad-20-front",
+						"altText": "CAD-20-front",
 						"imageSrc": "https://imgur.com/klpbRLD.jpeg"
 					},
 					"back": {
-						"altText": "cad-20-back",
+						"altText": "CAD-20-back",
 						"imageSrc": "https://imgur.com/vwAKHFX.jpeg"
 					}
 				},
@@ -134,11 +134,11 @@
 					"denomination": "50",
 					"owned": false,
 					"front": {
-						"altText": "cad-50-front",
+						"altText": "CAD-50-front",
 						"imageSrc": "https://imgur.com/oZc2L3f.jpeg"
 					},
 					"back": {
-						"altText": "cad-50-back",
+						"altText": "CAD-50-back",
 						"imageSrc": "https://imgur.com/YJXrHU9.jpeg"
 					}
 				},
@@ -146,11 +146,11 @@
 					"denomination": "100",
 					"owned": true,
 					"front": {
-						"altText": "cad-100-front",
+						"altText": "CAD-100-front",
 						"imageSrc": "https://imgur.com/Q8Y5vZp.jpeg"
 					},
 					"back": {
-						"altText": "cad-100-back",
+						"altText": "CAD-100-back",
 						"imageSrc": "https://imgur.com/qNllKDI.jpeg"
 					}
 				}
@@ -158,17 +158,17 @@
 		},
 		{
 			"name": "Mexican Peso",
-			"symbol": "mxn",
+			"symbol": "MXN",
 			"banknotes": [
 				{
 					"denomination": "20",
 					"owned": false,
 					"front": {
-						"altText": "mxn-20-front",
+						"altText": "MXN-20-front",
 						"imageSrc": "https://imgur.com/tzXQ4lC.jpeg"
 					},
 					"back": {
-						"altText": "mxn-20-back",
+						"altText": "MXN-20-back",
 						"imageSrc": "https://imgur.com/0PtTjkm.jpeg"
 					}
 				},
@@ -176,11 +176,11 @@
 					"denomination": "50",
 					"owned": false,
 					"front": {
-						"altText": "mxn-50-front",
+						"altText": "MXN-50-front",
 						"imageSrc": "https://imgur.com/VOO7qBe.jpeg"
 					},
 					"back": {
-						"altText": "mxn-50-back",
+						"altText": "MXN-50-back",
 						"imageSrc": "https://imgur.com/d6bl6YC.jpeg"
 					}
 				},
@@ -188,11 +188,11 @@
 					"denomination": "100",
 					"owned": false,
 					"front": {
-						"altText": "mxn-100-front",
+						"altText": "MXN-100-front",
 						"imageSrc": "https://imgur.com/ym9fPGA.jpeg"
 					},
 					"back": {
-						"altText": "mxn-100-back",
+						"altText": "MXN-100-back",
 						"imageSrc": "https://imgur.com/wRtthB5.jpeg"
 					}
 				},
@@ -200,11 +200,11 @@
 					"denomination": "200",
 					"owned": false,
 					"front": {
-						"altText": "mxn-200-front",
+						"altText": "MXN-200-front",
 						"imageSrc": "https://imgur.com/NS2fTNg.jpeg"
 					},
 					"back": {
-						"altText": "mxn-200-back",
+						"altText": "MXN-200-back",
 						"imageSrc": "https://imgur.com/fZzVzYm.jpeg"
 					}
 				},
@@ -212,29 +212,29 @@
 					"denomination": "500",
 					"owned": false,
 					"front": {
-						"altText": "mxn-500-front",
+						"altText": "MXN-500-front",
 						"imageSrc": "https://imgur.com/3n7jUp0.jpeg"
 					},
 					"back": {
-						"altText": "mxn-500-back",
+						"altText": "MXN-500-back",
 						"imageSrc": "https://imgur.com/1nAi7no.jpeg"
 					}
 				}
 			]
 		},
 		{
-			"name": "European Euro",
-			"symbol": "eur",
+			"name": "Euro",
+			"symbol": "EUR",
 			"banknotes": [
 				{
 					"denomination": "5",
 					"owned": true,
 					"front": {
-						"altText": "eur-5-front",
+						"altText": "EUR-5-front",
 						"imageSrc": "https://imgur.com/z2YH562.jpeg"
 					},
 					"back": {
-						"altText": "eur-5-back",
+						"altText": "EUR-5-back",
 						"imageSrc": "https://imgur.com/EX83pGN.jpeg"
 					}
 				},
@@ -242,11 +242,11 @@
 					"denomination": "10",
 					"owned": true,
 					"front": {
-						"altText": "eur-10-front",
+						"altText": "EUR-10-front",
 						"imageSrc": "https://imgur.com/dLkPBU8.jpeg"
 					},
 					"back": {
-						"altText": "eur-10-back",
+						"altText": "EUR-10-back",
 						"imageSrc": "https://imgur.com/9a7FNCc.jpeg"
 					}
 				},
@@ -254,11 +254,11 @@
 					"denomination": "20",
 					"owned": true,
 					"front": {
-						"altText": "eur-20-front",
+						"altText": "EUR-20-front",
 						"imageSrc": "https://imgur.com/GdC2EZu.jpeg"
 					},
 					"back": {
-						"altText": "eur-20-back",
+						"altText": "EUR-20-back",
 						"imageSrc": "https://imgur.com/IHDJ7Ao.jpeg"
 					}
 				},
@@ -266,11 +266,11 @@
 					"denomination": "50",
 					"owned": true,
 					"front": {
-						"altText": "eur-50-front",
+						"altText": "EUR-50-front",
 						"imageSrc": "https://imgur.com/KuPKZCn.jpeg"
 					},
 					"back": {
-						"altText": "eur-50-back",
+						"altText": "EUR-50-back",
 						"imageSrc": "https://imgur.com/JYvVW48.jpeg"
 					}
 				},
@@ -278,11 +278,11 @@
 					"denomination": "100",
 					"owned": false,
 					"front": {
-						"altText": "eur-100-front",
+						"altText": "EUR-100-front",
 						"imageSrc": "https://imgur.com/2ZhgLJs.jpeg"
 					},
 					"back": {
-						"altText": "eur-100-back",
+						"altText": "EUR-100-back",
 						"imageSrc": "https://imgur.com/pmDStRK.jpeg"
 					}
 				},
@@ -290,11 +290,11 @@
 					"denomination": "200",
 					"owned": false,
 					"front": {
-						"altText": "eur-200-front",
+						"altText": "EUR-200-front",
 						"imageSrc": "https://imgur.com/SueEd12.jpeg"
 					},
 					"back": {
-						"altText": "eur-200-back",
+						"altText": "EUR-200-back",
 						"imageSrc": "https://imgur.com/v9KXvjV.jpeg"
 					}
 				}
@@ -302,17 +302,17 @@
 		},
 		{
 			"name": "Swiss Franc",
-			"symbol": "chf",
+			"symbol": "CHF",
 			"banknotes": [
 				{
 					"denomination": "10",
 					"owned": false,
 					"front": {
-						"altText": "chf-10-front",
+						"altText": "CHF-10-front",
 						"imageSrc": "https://imgur.com/xHOz1oE.jpeg"
 					},
 					"back": {
-						"altText": "chf-10-back",
+						"altText": "CHF-10-back",
 						"imageSrc": "https://imgur.com/9iYmzw2.jpeg"
 					}
 				},
@@ -320,11 +320,11 @@
 					"denomination": "20",
 					"owned": false,
 					"front": {
-						"altText": "chf-20-front",
+						"altText": "CHF-20-front",
 						"imageSrc": "https://imgur.com/zaJn2dx.jpeg"
 					},
 					"back": {
-						"altText": "chf-20-back",
+						"altText": "CHF-20-back",
 						"imageSrc": "https://imgur.com/PV07Ko9.jpeg"
 					}
 				},
@@ -332,11 +332,11 @@
 					"denomination": "50",
 					"owned": false,
 					"front": {
-						"altText": "chf-50-front",
+						"altText": "CHF-50-front",
 						"imageSrc": "https://imgur.com/E1hxIBz.jpeg"
 					},
 					"back": {
-						"altText": "chf-50-back",
+						"altText": "CHF-50-back",
 						"imageSrc": "https://imgur.com/BtKSFVc.jpeg"
 					}
 				},
@@ -344,11 +344,11 @@
 					"denomination": "100",
 					"owned": false,
 					"front": {
-						"altText": "chf-100-front",
+						"altText": "CHF-100-front",
 						"imageSrc": "https://imgur.com/RhTylA3.jpeg"
 					},
 					"back": {
-						"altText": "chf-100-back",
+						"altText": "CHF-100-back",
 						"imageSrc": "https://imgur.com/N5s9anQ.jpeg"
 					}
 				},
@@ -356,11 +356,11 @@
 					"denomination": "200",
 					"owned": false,
 					"front": {
-						"altText": "chf-200-front",
+						"altText": "CHF-200-front",
 						"imageSrc": "https://imgur.com/OyHmjdP.jpeg"
 					},
 					"back": {
-						"altText": "chf-200-back",
+						"altText": "CHF-200-back",
 						"imageSrc": "https://imgur.com/iRMdGky.jpeg"
 					}
 				},
@@ -368,29 +368,29 @@
 					"denomination": "1000",
 					"owned": false,
 					"front": {
-						"altText": "chf-1000-front",
+						"altText": "CHF-1000-front",
 						"imageSrc": "https://imgur.com/scL4kUC.jpeg"
 					},
 					"back": {
-						"altText": "chf-1000-back",
+						"altText": "CHF-1000-back",
 						"imageSrc": "https://imgur.com/mSsc0NC.jpeg"
 					}
 				}
 			]
 		},
 		{
-			"name": "Great British Pound",
-			"symbol": "gbp",
+			"name": "British Pound",
+			"symbol": "GBP",
 			"banknotes": [
 				{
 					"denomination": "5",
 					"owned": true,
 					"front": {
-						"altText": "gbp-5-front",
+						"altText": "GBP-5-front",
 						"imageSrc": "https://imgur.com/wwvw786.jpeg"
 					},
 					"back": {
-						"altText": "gbp-5-back",
+						"altText": "GBP-5-back",
 						"imageSrc": "https://imgur.com/14I3ZUE.jpeg"
 					}
 				},
@@ -398,11 +398,11 @@
 					"denomination": "10",
 					"owned": true,
 					"front": {
-						"altText": "gbp-10-front",
+						"altText": "GBP-10-front",
 						"imageSrc": "https://imgur.com/QVDyUYC.jpeg"
 					},
 					"back": {
-						"altText": "gbp-10-back",
+						"altText": "GBP-10-back",
 						"imageSrc": "https://imgur.com/AmY6X6R.jpeg"
 					}
 				},
@@ -410,11 +410,11 @@
 					"denomination": "20",
 					"owned": true,
 					"front": {
-						"altText": "gbp-20-front",
+						"altText": "GBP-20-front",
 						"imageSrc": "https://imgur.com/1hEXSl1.jpeg"
 					},
 					"back": {
-						"altText": "gbp-20-back",
+						"altText": "GBP-20-back",
 						"imageSrc": "https://imgur.com/FCQRd1B.jpeg"
 					}
 				},
@@ -422,11 +422,11 @@
 					"denomination": "50",
 					"owned": true,
 					"front": {
-						"altText": "gbp-50-front",
+						"altText": "GBP-50-front",
 						"imageSrc": "https://imgur.com/3RxHmFX.jpeg"
 					},
 					"back": {
-						"altText": "gbp-50-back",
+						"altText": "GBP-50-back",
 						"imageSrc": "https://imgur.com/taAF9qQ.jpeg"
 					}
 				}
@@ -434,17 +434,17 @@
 		},
 		{
 			"name": "Polish Zloty",
-			"symbol": "pln",
+			"symbol": "PLN",
 			"banknotes": [
 				{
 					"denomination": "10",
 					"owned": true,
 					"front": {
-						"altText": "pln-10-front",
+						"altText": "PLN-10-front",
 						"imageSrc": "https://imgur.com/IuGrwoM.jpeg"
 					},
 					"back": {
-						"altText": "pln-10-back",
+						"altText": "PLN-10-back",
 						"imageSrc": "https://imgur.com/3gdk3nr.jpeg"
 					}
 				},
@@ -452,11 +452,11 @@
 					"denomination": "20",
 					"owned": true,
 					"front": {
-						"altText": "pln-20-front",
+						"altText": "PLN-20-front",
 						"imageSrc": "https://imgur.com/61BRowd.jpeg"
 					},
 					"back": {
-						"altText": "pln-20-back",
+						"altText": "PLN-20-back",
 						"imageSrc": "https://imgur.com/iCxVfMC.jpeg"
 					}
 				},
@@ -464,11 +464,11 @@
 					"denomination": "50",
 					"owned": true,
 					"front": {
-						"altText": "pln-50-front",
+						"altText": "PLN-50-front",
 						"imageSrc": "https://imgur.com/Jivv9XR.jpeg"
 					},
 					"back": {
-						"altText": "pln-50-back",
+						"altText": "PLN-50-back",
 						"imageSrc": "https://imgur.com/MkUXTXE.jpeg"
 					}
 				},
@@ -476,11 +476,11 @@
 					"denomination": "100",
 					"owned": false,
 					"front": {
-						"altText": "pln-100-front",
+						"altText": "PLN-100-front",
 						"imageSrc": "https://imgur.com/MNQVahH.jpeg"
 					},
 					"back": {
-						"altText": "pln-100-back",
+						"altText": "PLN-100-back",
 						"imageSrc": "https://imgur.com/I0sqsbp.jpeg"
 					}
 				},
@@ -488,11 +488,11 @@
 					"denomination": "200",
 					"owned": false,
 					"front": {
-						"altText": "pln-200-front",
+						"altText": "PLN-200-front",
 						"imageSrc": "https://imgur.com/cKcoza7.jpeg"
 					},
 					"back": {
-						"altText": "pln-200-back",
+						"altText": "PLN-200-back",
 						"imageSrc": "https://imgur.com/1oQLLfj.jpeg"
 					}
 				},
@@ -500,11 +500,11 @@
 					"denomination": "500",
 					"owned": true,
 					"front": {
-						"altText": "pln-500-front",
+						"altText": "PLN-500-front",
 						"imageSrc": "https://imgur.com/bH9dke1.jpeg"
 					},
 					"back": {
-						"altText": "pln-500-back",
+						"altText": "PLN-500-back",
 						"imageSrc": "https://imgur.com/ca9NuKH.jpeg"
 					}
 				}
@@ -512,17 +512,17 @@
 		},
 		{
 			"name": "Aruban Florin",
-			"symbol": "awg",
+			"symbol": "AWG",
 			"banknotes": [
 				{
 					"denomination": "10",
 					"owned": true,
 					"front": {
-						"altText": "awg-10-front",
+						"altText": "AWG-10-front",
 						"imageSrc": "https://imgur.com/VNhuxIC.jpeg"
 					},
 					"back": {
-						"altText": "awg-10-back",
+						"altText": "AWG-10-back",
 						"imageSrc": "https://imgur.com/m2nZkWK.jpeg"
 					}
 				},
@@ -530,11 +530,11 @@
 					"denomination": "25",
 					"owned": true,
 					"front": {
-						"altText": "awg-25-front",
+						"altText": "AWG-25-front",
 						"imageSrc": "https://imgur.com/46Z8F8t.jpeg"
 					},
 					"back": {
-						"altText": "awg-25-back",
+						"altText": "AWG-25-back",
 						"imageSrc": "https://imgur.com/l9otirt.jpeg"
 					}
 				},
@@ -542,11 +542,11 @@
 					"denomination": "50",
 					"owned": true,
 					"front": {
-						"altText": "awg-50-front",
+						"altText": "AWG-50-front",
 						"imageSrc": "https://imgur.com/R5UOuCl.jpeg"
 					},
 					"back": {
-						"altText": "awg-50-back",
+						"altText": "AWG-50-back",
 						"imageSrc": "https://imgur.com/pVgUwIF.jpeg"
 					}
 				},
@@ -554,11 +554,11 @@
 					"denomination": "100",
 					"owned": true,
 					"front": {
-						"altText": "awg-100-front",
+						"altText": "AWG-100-front",
 						"imageSrc": "https://imgur.com/g7aVjCS.jpeg"
 					},
 					"back": {
-						"altText": "awg-100-back",
+						"altText": "AWG-100-back",
 						"imageSrc": "https://imgur.com/zHraW7N.jpeg"
 					}
 				},
@@ -566,11 +566,11 @@
 					"denomination": "200",
 					"owned": false,
 					"front": {
-						"altText": "awg-200-front",
+						"altText": "AWG-200-front",
 						"imageSrc": "https://imgur.com/R8Vrqa4.jpeg"
 					},
 					"back": {
-						"altText": "awg-200-back",
+						"altText": "AWG-200-back",
 						"imageSrc": "https://imgur.com/5cYpRxM.jpeg"
 					}
 				}
@@ -578,17 +578,17 @@
 		},
 		{
 			"name": "Australian Dollar",
-			"symbol": "aud",
+			"symbol": "AUD",
 			"banknotes": [
 				{
 					"denomination": "5",
 					"owned": true,
 					"front": {
-						"altText": "aud-5-front",
+						"altText": "AUD-5-front",
 						"imageSrc": "https://imgur.com/YHX6kSt.jpeg"
 					},
 					"back": {
-						"altText": "aud-5-back",
+						"altText": "AUD-5-back",
 						"imageSrc": "https://imgur.com/ml9Y9z1.jpeg"
 					}
 				},
@@ -596,11 +596,11 @@
 					"denomination": "10",
 					"owned": true,
 					"front": {
-						"altText": "aud-10-front",
+						"altText": "AUD-10-front",
 						"imageSrc": "https://imgur.com/HDUY1xm.jpeg"
 					},
 					"back": {
-						"altText": "aud-10-back",
+						"altText": "AUD-10-back",
 						"imageSrc": "https://imgur.com/EItMa2k.jpeg"
 					}
 				},
@@ -608,11 +608,11 @@
 					"denomination": "20",
 					"owned": true,
 					"front": {
-						"altText": "aud-20-front",
+						"altText": "AUD-20-front",
 						"imageSrc": "https://imgur.com/w83fZku.jpeg"
 					},
 					"back": {
-						"altText": "aud-20-back",
+						"altText": "AUD-20-back",
 						"imageSrc": "https://imgur.com/aIEqFJX.jpeg"
 					}
 				},
@@ -620,11 +620,11 @@
 					"denomination": "50",
 					"owned": true,
 					"front": {
-						"altText": "aud-50-front",
+						"altText": "AUD-50-front",
 						"imageSrc": "https://imgur.com/xDqdVEQ.jpeg"
 					},
 					"back": {
-						"altText": "aud-50-back",
+						"altText": "AUD-50-back",
 						"imageSrc": "https://imgur.com/1g3pakV.jpeg"
 					}
 				},
@@ -632,11 +632,11 @@
 					"denomination": "100",
 					"owned": false,
 					"front": {
-						"altText": "aud-100-front",
+						"altText": "AUD-100-front",
 						"imageSrc": "https://imgur.com/23HYUzW.jpeg"
 					},
 					"back": {
-						"altText": "aud-100-back",
+						"altText": "AUD-100-back",
 						"imageSrc": "https://imgur.com/Eub7PqA.jpeg"
 					}
 				}
@@ -644,17 +644,17 @@
 		},
 		{
 			"name": "New Zealand dollar",
-			"symbol": "nzd",
+			"symbol": "NZD",
 			"banknotes": [
 				{
 					"denomination": "5",
 					"owned": true,
 					"front": {
-						"altText": "nzd-5-front",
+						"altText": "NZD-5-front",
 						"imageSrc": "https://imgur.com/YYqi9JT.jpeg"
 					},
 					"back": {
-						"altText": "nzd-5-back",
+						"altText": "NZD-5-back",
 						"imageSrc": "https://imgur.com/QlBQFb7.jpeg"
 					}
 				},
@@ -662,11 +662,11 @@
 					"denomination": "10",
 					"owned": true,
 					"front": {
-						"altText": "nzd-10-front",
+						"altText": "NZD-10-front",
 						"imageSrc": "https://imgur.com/pZ7rm1a.jpeg"
 					},
 					"back": {
-						"altText": "nzd-10-back",
+						"altText": "NZD-10-back",
 						"imageSrc": "https://imgur.com/XzAx1Ka.jpeg"
 					}
 				},
@@ -674,11 +674,11 @@
 					"denomination": "20",
 					"owned": true,
 					"front": {
-						"altText": "nzd-20-front",
+						"altText": "NZD-20-front",
 						"imageSrc": "https://imgur.com/JL7vNgB.jpeg"
 					},
 					"back": {
-						"altText": "nzd-20-back",
+						"altText": "NZD-20-back",
 						"imageSrc": "https://imgur.com/0ZVeHtW.jpeg"
 					}
 				},
@@ -686,11 +686,11 @@
 					"denomination": "50",
 					"owned": true,
 					"front": {
-						"altText": "nzd-50-front",
+						"altText": "NZD-50-front",
 						"imageSrc": "https://imgur.com/iUxFG36.jpeg"
 					},
 					"back": {
-						"altText": "nzd-50-back",
+						"altText": "NZD-50-back",
 						"imageSrc": "https://imgur.com/2UqxQ3U.jpeg"
 					}
 				},
@@ -698,11 +698,11 @@
 					"denomination": "100",
 					"owned": false,
 					"front": {
-						"altText": "nzd-100-front",
+						"altText": "NZD-100-front",
 						"imageSrc": "https://imgur.com/9SHBkYC.jpeg"
 					},
 					"back": {
-						"altText": "nzd-100-back",
+						"altText": "NZD-100-back",
 						"imageSrc": "https://imgur.com/LyhZu67.jpeg"
 					}
 				}

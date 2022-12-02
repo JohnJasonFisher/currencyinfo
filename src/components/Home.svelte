@@ -1,12 +1,10 @@
 <script>
-	import { navigate, Route } from 'svelte-routing'
+	import { navigate } from 'svelte-routing'
 	import CurrencyInfo from './CurrencyInfo.svelte'
 	import CurrencyData from '../data/currencyData.json'
 
 	export let currency
 	const pages = CurrencyData.currencies.map((cur) => ({
-		route: cur.symbol,
-		label: cur.symbol.toUpperCase(),
 		symbol: cur.symbol,
 	}))
 
@@ -20,12 +18,12 @@
 	<div class="card">
 		{#each pages as page}
 			<button
-				on:click={() => navigate(page.route)}
+				on:click={() => navigate(page.symbol)}
 				style="background-color: {page.symbol === currency.symbol
 					? activeButtonColor
 					: defaultButtonColor}"
 			>
-				{page.label}
+				{page.symbol}
 			</button>
 		{/each}
 
