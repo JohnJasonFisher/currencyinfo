@@ -6,7 +6,7 @@
 	"scripts": {
 		"format": "npx prettier --write .",
 		"check": "npx prettier --check .",
-		"dev": "npx vercel dev",
+		"start": "npx vercel dev",
 		"build": "vite build"
 	},
 	"devDependencies": {
