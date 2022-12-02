@@ -12,7 +12,7 @@ export default async function handler(request, response) {
 	try {
 		let price: string | null = await getPriceFromRedis(symbol)
 		if (!price) {
-			price = await await getPriceFromPolygonApi(symbol)
+			price = await getPriceFromPolygonApi(symbol)
 			await setPriceInRedis(symbol, price)
 		}
 		return response.status(200).json({ price })
