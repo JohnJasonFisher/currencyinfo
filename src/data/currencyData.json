@@ -707,6 +707,60 @@
 					}
 				}
 			]
+		},
+		{
+			"name": "Israeli New Shekel",
+			"symbol": "NIS",
+			"banknotes": [
+				{
+					"denomination": "20",
+					"owned": false,
+					"front": {
+						"altText": "NIS-20-front",
+						"imageSrc": "https://imgur.com/axKThQT.jpeg"
+					},
+					"back": {
+						"altText": "NIS-20-back",
+						"imageSrc": "https://imgur.com/QAthFF4.jpeg"
+					}
+				},
+				{
+					"denomination": "50",
+					"owned": false,
+					"front": {
+						"altText": "NIS-50-front",
+						"imageSrc": "https://imgur.com/8Kx7l0B.jpeg"
+					},
+					"back": {
+						"altText": "NIS-50-back",
+						"imageSrc": "https://imgur.com/3qLUCgH.jpeg"
+					}
+				},
+				{
+					"denomination": "100",
+					"owned": false,
+					"front": {
+						"altText": "NIS-100-front",
+						"imageSrc": "https://imgur.com/68Ggo9j.jpeg"
+					},
+					"back": {
+						"altText": "NIS-100-back",
+						"imageSrc": "https://imgur.com/SrjH7tl.jpeg"
+					}
+				},
+				{
+					"denomination": "200",
+					"owned": false,
+					"front": {
+						"altText": "NIS-200-front",
+						"imageSrc": "https://imgur.com/kSdaRS2.jpeg"
+					},
+					"back": {
+						"altText": "NIS-200-back",
+						"imageSrc": "https://imgur.com/ycXDavY.jpeg"
+					}
+				}
+			]
 		}
 	]
 }
