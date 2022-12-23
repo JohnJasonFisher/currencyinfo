@@ -714,7 +714,7 @@
 			"banknotes": [
 				{
 					"denomination": "20",
-					"owned": false,
+					"owned": true,
 					"front": {
 						"altText": "ILS-20-front",
 						"imageSrc": "https://imgur.com/axKThQT.jpeg"
@@ -726,7 +726,7 @@
 				},
 				{
 					"denomination": "50",
-					"owned": false,
+					"owned": true,
 					"front": {
 						"altText": "ILS-50-front",
 						"imageSrc": "https://imgur.com/8Kx7l0B.jpeg"
@@ -738,7 +738,7 @@
 				},
 				{
 					"denomination": "100",
-					"owned": false,
+					"owned": true,
 					"front": {
 						"altText": "ILS-100-front",
 						"imageSrc": "https://imgur.com/68Ggo9j.jpeg"
