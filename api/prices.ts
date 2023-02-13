@@ -49,9 +49,8 @@ async function getPriceFromPolygonApi(symbol: string): Promise<string> {
 			},
 		})
 		console.info('Result from polygon api', { data: polygonResponse.data })
-		const rawPrice = polygonResponse.data.results[0].c
-		const pricePerOneUsd = 1 / rawPrice
-		return _.round(pricePerOneUsd, 2).toString()
+		const price: number = polygonResponse.data.results[0].c
+		return _.round(price, 2).toString()
 	} catch (error) {
 		const { status, statusText, data } = error.response
 		console.error('error from getPriceFromPolygonApi', {
