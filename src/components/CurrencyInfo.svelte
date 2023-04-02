@@ -1,22 +1,10 @@
 <script>
-	import { getPrice } from '../helpers/priceHelper'
-
 	export let name = 'United States Dollar'
 	export let symbol = 'USD'
 	export let banknotes
-
-	const pricePromise = getPrice(symbol)
 </script>
 
 <h2>{name} - {symbol}</h2>
-
-{#await pricePromise}
-	<p>...waiting</p>
-{:then actualPrice}
-	<p>1 USD can buy {actualPrice} {symbol}</p>
-{:catch error}
-	<p style="color: red">Failed to fetch price data.</p>
-{/await}
 
 {#each banknotes as banknote}
 	<div>
